@@ -1,0 +1,2290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartRelief — Smart Disaster Relief and Donation Coordination System | R26-IT-047</title>
+  <meta name="description" content="Project SmartRelief (R26-IT-047): An intelligent disaster relief decision-support platform connecting emergency hazard prediction, crowd-density relief estimation, and patient triage." />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Accessible Skip to Content Link -->
+  <a href="#home" class="skip-link">Skip to main content</a>
+
+  <!-- Ambient background grid pattern -->
+  <div class="bg-pattern" aria-hidden="true"></div>
+
+  <!-- Sticky Top Bar Navigation -->
+  <nav class="navbar" aria-label="Main">
+    <div class="site-wrap nav-content">
+      <a href="#home" class="logo" aria-label="SmartRelief Home">
+        <span class="logo-mark">
+          <svg viewBox="0 0 32 32" fill="none" width="28" height="28" aria-hidden="true">
+            <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/>
+            <path d="M16 8v8l5 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="16" cy="16" r="3" fill="currentColor"/>
+          </svg>
+        </span>
+        SmartRelief
+        <span class="logo-sub">Research</span>
+      </a>
+
+      <!-- Seven Navigation Links in Exact Order: Home, Domain, Milestones, Documents, Slides, About us, Contact us -->
+      <div class="nav-links-wrap">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link-home">Home</a></li>
+          <li><a href="#domain" class="nav-link-domain">Domain</a></li>
+          <li><a href="#milestones" class="nav-link-milestones">Milestones</a></li>
+          <li><a href="#documents" class="nav-link-documents">Documents</a></li>
+          <li><a href="#slides" class="nav-link-slides">Slides</a></li>
+          <li><a href="#about" class="nav-link-about">About us</a></li>
+          <li><a href="#contact" class="nav-link-contact btn-nav">Contact us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="scroll-progress-bar" aria-hidden="true"></div>
+  </nav>
+
+  <!-- =========================================================================
+       SECTION 1: HOME (#home)
+       ========================================================================= -->
+  <section id="home" class="page-section" aria-labelledby="home-heading">
+    <div class="site-wrap">
+      <div class="section-breadcrumb">
+        <span class="bc-root">SmartRelief</span>
+        <span aria-hidden="true">›</span>
+        <span class="bc-current">Home</span>
+      </div>
+    </div>
+
+    <!-- Hero Header -->
+    <header class="hero">
+      <div class="hero-decor" aria-hidden="true">
+        <svg class="decor-wave" viewBox="0 0 600 200" preserveAspectRatio="none">
+          <path d="M0 120 Q75 80 150 120 T300 120 T450 120 T600 120 V200 H0 Z" fill="url(#waveGrad)"/>
+          <path d="M0 140 Q100 100 200 140 T400 140 T600 140 V200 H0 Z" fill="url(#waveGrad2)"/>
+          <defs>
+            <linearGradient id="waveGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.25"/>
+              <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+            </linearGradient>
+            <linearGradient id="waveGrad2" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.18"/>
+              <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <svg class="decor-pins" viewBox="0 0 120 120">
+          <circle cx="40" cy="35" r="8" fill="#ef4444" opacity="0.75"/>
+          <path d="M40 20 L40 48" stroke="#ef4444" stroke-width="2" opacity="0.5"/>
+          <circle cx="75" cy="55" r="6" fill="#f59e0b" opacity="0.65"/>
+          <path d="M75 42 L75 65" stroke="#f59e0b" stroke-width="2" opacity="0.45"/>
+          <circle cx="55" cy="80" r="5" fill="#22c55e" opacity="0.55"/>
+        </svg>
+      </div>
+
+      <div class="site-wrap hero-content">
+        <p class="eyebrow">
+          <span class="project-code-tag">Project R26-IT-047</span>
+          Smart Disaster Relief and Donation Coordination System
+        </p>
+        <h1>Decision support for flood and landslide response,<br /><span class="gradient-text">built for transparent assistance.</span></h1>
+        <p class="hero-sub">
+          During severe monsoon floods and landslides in Sri Lanka, responders face acute information scarcity, damaged infrastructure, and overwhelming casualty queues. SmartRelief links emergency SOS reporting, historical hazard prediction, computer-vision relief demand estimation, clinical triage decision support, and multilingual donation appeal evaluation into an integrated decision-support system where every automated output is strictly advisory and open to human override.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#domain" class="btn primary">
+            Explore Research Domain
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#milestones" class="btn secondary">View Milestones</a>
+          <a href="#documents" class="btn secondary">Project Documents</a>
+        </div>
+
+        <div>
+          <a href="#domain" class="hero-scroll-down">Scroll down ↓</a>
+        </div>
+
+        <!-- Verified Research Stats -->
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-target-label">Hazard Models</span>
+            <strong>Flood + Landslide</strong>
+            <span>Historical Susceptibility</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-target-label">Computer Vision</span>
+            <strong>YOLOv8n Head Counting</strong>
+            <span>0.886 mAP50 (4,449 Heads)</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-target-label">Clinical Safety</span>
+            <strong>31 Critical Triggers</strong>
+            <span>Rule-Based Model Bypass</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-target-label">Language Coverage</span>
+            <strong>EN / SI / TA Appeals</strong>
+            <span>0.804 Test Accuracy (1,126 n)</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- The Three Core Components -->
+    <div class="site-wrap" style="margin-top: 3.5rem;">
+      <div class="section-header">
+        <span class="section-tag">Research Architecture</span>
+        <h2 id="home-heading">The Three Core Components</h2>
+        <p class="section-lead">Investigating modular machine-learning pipelines across emergency alerting, relief prediction, and clinical triage.</p>
+      </div>
+
+      <div class="card-grid three">
+        <!-- Component 1 -->
+        <article class="card">
+          <div class="card-icon-wrap delay" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" width="28" height="28">
+              <path d="M24 6L6 38h36L24 6z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+              <circle cx="24" cy="32" r="2" fill="currentColor"/>
+              <path d="M24 18v8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span class="project-code-tag" style="margin-bottom: 0.6rem;">Component 1 · Owner: Kavitha</span>
+          <h3>Emergency Alerting, Camp Planning and Hazard Prediction</h3>
+          <p style="margin-bottom: 0.8rem;">
+            <strong>SOS Alerting &amp; Priority:</strong> Victim intake form with GPS coordinates, validated payload, and Random Forest regressor priority scoring with status tracking (Active, Acknowledged, Assigned, Responding, Resolved) alerting authorised responders via FastAPI with JWT role checks.
+          </p>
+          <p style="margin-bottom: 0.8rem;">
+            <strong>Camp Recommendation:</strong> Ranks candidate temporary medical camp sites on a Leaflet map using hazard risk, SOS demand, roads, population, and facilities. High suitability never overrides hard safety constraints; decisions require authority review.
+          </p>
+          <p>
+            <strong>Disaster Prediction:</strong> Historical flood (Logistic Regression, 82.4%) and landslide (Random Forest, 91.3%) risk maps from rainfall, slope, and land-cover data <!-- TODO: team to confirm metric name and deployed model before publishing -->. Historical models are explicitly not live forecasts.
+          </p>
+        </article>
+
+        <!-- Component 2 -->
+        <article class="card">
+          <div class="card-icon-wrap map" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" width="28" height="28">
+              <rect x="8" y="10" width="32" height="28" rx="3" stroke="currentColor" stroke-width="2"/>
+              <circle cx="24" cy="20" r="5" stroke="currentColor" stroke-width="2"/>
+              <path d="M14 32c0-5 4.5-6 10-6s10 1 10 6" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <span class="project-code-tag" style="margin-bottom: 0.6rem;">Component 2 · Owner: Rashmi</span>
+          <h3>Integrated Disaster Relief Prediction</h3>
+          <p style="margin-bottom: 0.8rem;">
+            <strong>Affected-Population Head Counting:</strong> YOLOv8n detector trained on Roboflow Universe Head Detection dataset v1 won controlled evaluation against YOLO11n and YOLO26n on 422 validation images / 4,449 heads (precision 0.914, recall 0.798, mAP50 0.886).
+          </p>
+          <p style="margin-bottom: 0.8rem;">
+            <strong>Demand &amp; Forecast:</strong> Essential relief needs calculated using official per-person and per-family rates. Next-hour camp population forecasted via Random Forest time-series regression exported as lightweight JSON decision trees for in-browser execution.
+          </p>
+          <p>
+            <strong>Donation Prioritisation:</strong> Random Forest scoring donor contribution probability, geographic proximity prioritisation, and dynamic allocation retiring fulfilled items while maintaining focus on critical shortages.
+          </p>
+        </article>
+
+        <!-- Component 3 -->
+        <article class="card">
+          <div class="card-icon-wrap medical" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" width="28" height="28">
+              <rect x="10" y="10" width="28" height="28" rx="4" stroke="currentColor" stroke-width="2"/>
+              <path d="M24 16v16M16 24h16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span class="project-code-tag" style="margin-bottom: 0.6rem;">Component 3 · Owner: D.K.S.D. Perera</span>
+          <h3>Patient Severity Triage and Appeal Quality Scoring</h3>
+          <p style="margin-bottom: 0.8rem;">
+            <strong>Clinical Triage:</strong> Intake form with symptoms, age, 6 vitals, scispaCy specialty routing (17 specialties, 10 condition groups, Pediatric/Geriatric aware), 31 critical triggers bypassing the model, and a 5-model stacked ensemble with raise-only safety layers (n=740 test: balanced accuracy 0.885, HIGH recall 0.905, 5 of 211 HIGH assigned LOW). Outputs are advisory with Medical Officer override.
+          </p>
+          <p>
+            <strong>Multilingual Appeal Scoring:</strong> Rates English, Sinhala, and Tamil relief appeals (LOW/MEDIUM/HIGH) using TF-IDF, LSA, calibrated Random Forest, and Gradient Boosting score regressor without pretrained embeddings (n=1,126 test: accuracy 0.804, MAE 0.333, R² 0.755).
+          </p>
+        </article>
+      </div>
+    </div>
+
+    <!-- 5-Step Workflow Section -->
+    <div class="site-wrap" style="margin-top: 4.5rem;">
+      <div class="section-header">
+        <span class="section-tag">Coordination Pipeline</span>
+        <h3>The 5-Step Integrated Response Workflow</h3>
+        <p class="section-lead">Linking citizen distress alerts to clinical care and donor supply allocation in a unified advisory chain.</p>
+      </div>
+
+      <div class="timeline" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+        <div class="step-card">
+          <div class="step-icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none" width="22" height="22"><circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="2"/><circle cx="16" cy="16" r="4" fill="currentColor"/></svg>
+          </div>
+          <div class="step-num">STEP 01</div>
+          <h4>SOS and Risk</h4>
+          <p>GPS-tagged distress request ingested with Random Forest priority scoring alongside historical flood and landslide risk mapping.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none" width="22" height="22"><path d="M4 24l6-12 5 8 4-6 5 10H4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="step-num">STEP 02</div>
+          <h4>Population Estimate &amp; Forecast</h4>
+          <p>YOLOv8n head counting estimates safety-centre crowd count; in-browser JSON trees forecast next-hour camp population surges.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none" width="22" height="22"><rect x="6" y="6" width="20" height="20" rx="3" stroke="currentColor" stroke-width="2"/><path d="M16 11v10M11 16h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <div class="step-num">STEP 03</div>
+          <h4>Triage</h4>
+          <p>Intake vitals, scispaCy entity extraction, 31 critical triggers, and stacked ensemble provide advisory patient severity ranking.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none" width="22" height="22"><path d="M12 4v24M4 12h24" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <div class="step-num">STEP 04</div>
+          <h4>Donor Matching</h4>
+          <p>Official relief requirement rates generate structured requests; Random Forest probability prioritises proximate donors.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none" width="22" height="22"><path d="M8 10h16v12H8z" stroke="currentColor" stroke-width="2"/><path d="M12 16h8M12 20h5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <div class="step-num">STEP 05</div>
+          <h4>Appeals</h4>
+          <p>Quality scoring rates English, Sinhala, and Tamil appeals to optimize public coordination and aid clarity.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Academic Call-To-Action -->
+    <div class="site-wrap" style="margin-top: 4rem;">
+      <div class="cta-section" style="border-radius: var(--radius);">
+        <h3>Academic Inquiries &amp; Research Access</h3>
+        <p>Explore the full empirical methodology, inspect evaluation confusion matrices, or contact the student researchers for academic review.</p>
+        <div class="hero-actions" style="justify-content: center; margin-bottom: 0;">
+          <a href="#domain" class="btn primary large">Read Domain Literature</a>
+          <a href="#contact" class="btn secondary large">Contact Research Team</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Footer Navigation -->
+    <div class="site-wrap">
+      <div class="section-footer-nav">
+        <a href="#home" class="sec-nav-link top-link">↑ Back to top</a>
+        <a href="#domain" class="sec-nav-link next-link">Next: Domain ↓</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 2: DOMAIN & METHODOLOGY (#domain)
+       ========================================================================= -->
+  <section id="domain" class="page-section" aria-labelledby="domain-heading">
+    <div class="site-wrap">
+      <div class="section-breadcrumb">
+        <a href="#home">SmartRelief</a>
+        <span aria-hidden="true">›</span>
+        <span class="bc-current">Domain</span>
+      </div>
+
+      <div class="section-header">
+        <span class="section-tag">Project R26-IT-047</span>
+        <h2 id="domain-heading">Research Domain &amp; Methodology</h2>
+        <p class="section-lead">Academic investigation into flood and landslide emergency alerting, temporary camp planning, hazard prediction, crowd-density relief estimation, clinical triage decision support, and multilingual appeal scoring.</p>
+      </div>
+
+      <!-- In-Page Table of Contents -->
+      <nav class="toc-box" aria-label="Domain Table of Contents">
+        <div class="toc-header">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <line x1="8" y1="6" x2="21" y2="6"></line>
+            <line x1="8" y1="12" x2="21" y2="12"></line>
+            <line x1="8" y1="18" x2="21" y2="18"></line>
+            <line x1="3" y1="6" x2="3.01" y2="6"></line>
+            <line x1="3" y1="12" x2="3.01" y2="12"></line>
+            <line x1="3" y1="18" x2="3.01" y2="18"></line>
+          </svg>
+          <span>Table of Contents</span>
+        </div>
+        <div class="toc-nav">
+          <a href="#literature-survey" class="toc-link">Literature Survey</a>
+          <a href="#research-gap" class="toc-link">Research Gap</a>
+          <a href="#research-problem" class="toc-link">Research Problem</a>
+          <a href="#research-objectives" class="toc-link">Research Objectives</a>
+          <a href="#methodology" class="toc-link">Methodology</a>
+          <a href="#technologies" class="toc-link">Technologies Used</a>
+          <a href="#limitations" class="toc-link">Limitations and Validation Status</a>
+          <a href="#references" class="toc-link">References</a>
+        </div>
+      </nav>
+
+      <!-- SUBSECTION: Literature Survey -->
+      <div id="literature-survey" class="domain-section-block">
+        <div class="domain-section-title">
+          <h3>Literature Survey</h3>
+          <a href="#domain" class="top-link">↑ Back to Domain TOC</a>
+        </div>
+        <div class="domain-body">
+          <h4 style="font-size: 1.15rem; color: var(--text); margin-top: 1rem; margin-bottom: 0.5rem;">Disaster medical triage</h4>
+          <p>
+            Triage allocates scarce clinical attention by urgency, and its errors are asymmetric: ranking a patient who needs urgent care too low may cost a life, whereas ranking one too high only spends limited attention. Systematic reviews report under-triage of critically ill patients <a href="#ref-1" class="cite-link">[1]</a>, substantial variation in triage-system performance across settings <a href="#ref-2" class="cite-link">[2]</a>, and persistent under-triage across all five-level systems <a href="#ref-3" class="cite-link">[3]</a>, with performance especially variable where resources are limited <a href="#ref-4" class="cite-link">[4]</a>. The Emergency Severity Index (ESI) is the most studied five-level instrument <a href="#ref-12" class="cite-link">[12]</a>. Emergency-department, prehospital and disaster triage differ in population and case mix, so results do not transfer directly between them.
+          </p>
+
+          <h4 style="font-size: 1.15rem; color: var(--text); margin-top: 1.6rem; margin-bottom: 0.5rem;">Machine learning for triage</h4>
+          <p>
+            Machine-learning triage has been reported to separate patient outcomes better than the ESI <a href="#ref-7" class="cite-link">[7]</a>, and chief-complaint text improves outcome and disposition prediction <a href="#ref-8" class="cite-link">[8]</a>, <a href="#ref-9" class="cite-link">[9]</a>. Stacked generalisation <a href="#ref-13" class="cite-link">[13]</a> over gradient-boosted trees such as LightGBM <a href="#ref-14" class="cite-link">[14]</a> and XGBoost <a href="#ref-15" class="cite-link">[15]</a> is a strong baseline for tabular clinical data. However, a systematic review of artificial intelligence in emergency and disaster triage finds little validation in genuine disaster settings <a href="#ref-10" class="cite-link">[10]</a>. A further methodological hazard is data leakage: repeated records across training and test splits inflate reported performance <a href="#ref-11" class="cite-link">[11]</a>, and when labels are constructed from the input features, accuracy measures how well a rule is recovered rather than how well clinical outcomes are predicted.
+          </p>
+
+          <h4 style="font-size: 1.15rem; color: var(--text); margin-top: 1.6rem; margin-bottom: 0.5rem;">Donation appeals and crowdfunding text</h4>
+          <p>
+            Message concreteness shapes donation intentions <a href="#ref-5" class="cite-link">[5]</a>, and appeals that combine information quality with gain framing increase willingness to donate <a href="#ref-6" class="cite-link">[6]</a>. Large language models can write appeals that outperform human-written ones on engagement <a href="#ref-16" class="cite-link">[16]</a>. For scoring such text, latent semantic analysis <a href="#ref-17" class="cite-link">[17]</a>, Random Forests <a href="#ref-18" class="cite-link">[18]</a>, gradient boosting <a href="#ref-19" class="cite-link">[19]</a> and sigmoid or isotonic calibration <a href="#ref-20" class="cite-link">[20]</a> form an auditable pipeline, although models can exploit spurious cues <a href="#ref-21" class="cite-link">[21]</a>, which motivates shortcut baselines. Appeal-quality analysis is almost entirely English, and large crowdfunding datasets such as MDCC <a href="#ref-24" class="cite-link">[24]</a> cover general campaigns rather than disaster relief. In Sri Lanka, Donate.lk <a href="#ref-22" class="cite-link">[22]</a> routed donations but did not assess appeal text.
+          </p>
+
+          <h4 style="font-size: 1.15rem; color: var(--text); margin-top: 1.6rem; margin-bottom: 0.5rem;">Hazard prediction, crowd estimation and relief logistics</h4>
+          <!-- TODO: team to add 4-6 verified sources each for (a) flood and landslide susceptibility prediction, (b) head or crowd counting with YOLO-family detectors, (c) relief-demand estimation and donor targeting. Do not invent citations. Until added, show a visible "Literature for Components 1 and 2 to be added" note. -->
+          <div class="domain-placeholder-box">
+            <p style="margin: 0;">Literature for flood and landslide prediction, crowd counting and relief-demand estimation is being compiled by the respective component owners and will be added here.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- SUBSECTION: Research Gap -->
+      <div id="research-gap" class="domain-section-block">
+        <div class="domain-section-title">
+          <h3>Research Gap</h3>
+          <a href="#domain" class="top-link">↑ Back to Domain TOC</a>
+        </div>
+        <div class="domain-body">
+          <p>Four gaps motivate this work.</p>
+          <p>
+            <strong>(1) Manual relief estimation.</strong> In existing disaster management practice, essential relief needs are largely estimated manually, which delays distribution and leads to inefficient donation coordination. Automated estimates based on observed affected populations and official requirement rates are not routinely available. <!-- TODO: team to confirm wording for Component 2 -->
+          </p>
+          <p>
+            <strong>(2) Unvalidated disaster triage.</strong> Triage decision support is well studied in emergency departments but has little validation in disaster settings <a href="#ref-10" class="cite-link">[10]</a>; reported scores are frequently inflated by repeated records across splits <a href="#ref-11" class="cite-link">[11]</a> or by labels that restate the inputs.
+          </p>
+          <p>
+            <strong>(3) Language coverage of appeal assessment.</strong> Appeal-quality research is almost entirely English <a href="#ref-5" class="cite-link">[5]</a>, <a href="#ref-6" class="cite-link">[6]</a>, and no public disaster-relief appeal corpus with quality labels in Sinhala or Tamil is known to the authors.
+          </p>
+          <p>
+            <strong>(4) Separate tools.</strong> Existing Sri Lankan donation tooling such as Donate.lk <a href="#ref-22" class="cite-link">[22]</a> routes donations but does not assess appeal text, and hazard prediction, emergency reporting, camp planning, triage and donor coordination are rarely connected in one workflow. <!-- TODO: team to confirm gap on hazard-to-camp linkage for Component 1 -->
+          </p>
+        </div>
+      </div>
+
+      <!-- SUBSECTION: Research Problem -->
+      <div id="research-problem" class="domain-section-block">
+        <div class="domain-section-title">
+          <h3>Research Problem</h3>
+          <a href="#domain" class="top-link">↑ Back to Domain TOC</a>
+        </div>
+        <div class="domain-body">
+          <p>
+            During floods and landslides in Sri Lanka, responders must decide where hazard risk is highest, who is affected and where they shelter, which patients need care first, and which supplies to request from whom, often with incomplete data, few clinicians and unreliable connectivity. Current practice relies on manual estimation and unaided judgement, so relief is delayed and donations are poorly targeted. The research problem is: how can a coordinated set of machine-learning components estimate hazard risk, affected population, relief requirements, patient severity and appeal quality accurately enough, and transparently enough, to support (not replace) human decision-makers in flood and landslide response, and how should such components be evaluated honestly given scarce disaster-specific data?
+          </p>
+        </div>
+      </div>
+
+      <!-- SUBSECTION: Research Objectives -->
+      <div id="research-objectives" class="domain-section-block">
+        <div class="domain-section-title">
+          <h3>Research Objectives</h3>
+          <a href="#domain" class="top-link">↑ Back to Domain TOC</a>
+        </div>
+        <div class="domain-body">
+          <h4 style="font-size: 1.15rem; color: var(--text); margin-bottom: 0.5rem;">Main objective</h4>
+          <p>
+            To design, implement and evaluate an integrated, decision-support platform for flood and landslide relief in Sri Lanka that links emergency reporting, hazard prediction, population and relief-demand estimation, medical triage and donation coordination, with every automated output advisory and open to human override.
+          </p>
+
+          <h4 style="font-size: 1.15rem; color: var(--text); margin-top: 1.6rem; margin-bottom: 0.5rem;">Component 1 - Emergency Alerting, Camp Planning and Hazard Prediction</h4>
+          <ul class="feature-list" style="margin-bottom: 1.4rem;">
+            <li>Capture GPS-tagged SOS requests securely and assign a priority score for responders.</li>
+            <li>Predict flood and landslide risk for supported areas from historical records and environmental features, and present it as a map layer.</li>
+            <li>Rank candidate temporary medical camp sites from hazard risk, SOS demand, accessibility and nearby facilities, subject to hard safety constraints and authority approval.</li>
+          </ul>
+
+          <h4 style="font-size: 1.15rem; color: var(--text); margin-top: 1.6rem; margin-bottom: 0.5rem;">Component 2 - Integrated Disaster Relief Prediction</h4>
+          <ul class="feature-list" style="margin-bottom: 1.4rem;">
+            <li>Estimate the affected population at a safety centre from images using a head-detection model selected by controlled comparison of YOLOv8n, YOLO11n and YOLO26n.</li>
+            <li>Convert population estimates and official per-person and per-family rates into structured donation requests.</li>
+            <li>Forecast next-hour relief-camp occupancy from camp, rainfall and water-level time series, deployable offline in the browser.</li>
+            <li>Prioritise donors by predicted contribution probability and proximity, and adapt requests as donations arrive.</li>
+          </ul>
+
+          <h4 style="font-size: 1.15rem; color: var(--text); margin-top: 1.6rem; margin-bottom: 0.5rem;">Component 3 - Patient Severity Triage and Multilingual Appeal Quality Scoring</h4>
+          <ul class="feature-list">
+            <li>Rank patients at disaster medical camps by severity with a recall-oriented design in which HIGH-to-LOW errors are minimised, rule-based critical triggers bypass the model, and a Medical Officer can override.</li>
+            <li>Route patients to the appropriate specialty using clinical entity extraction and age-aware rules.</li>
+            <li>Score English, Sinhala and Tamil donation appeals as LOW, MEDIUM or HIGH quality with a numeric score, using no pretrained embeddings and with the corpus composition disclosed.</li>
+            <li>Evaluate both under leakage-aware protocols and state the validation each still requires.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- SUBSECTION: Methodology -->
+      <div id="methodology" class="domain-section-block">
+        <div class="domain-section-title">
+          <h3>Methodology</h3>
+          <a href="#domain" class="top-link">↑ Back to Domain TOC</a>
+        </div>
+        <div class="domain-body">
+          <p>
+            Each component follows an offline training and application-time inference split: data are collected and cleaned, features engineered, candidate models compared and a model selected offline, then the saved model and its preprocessing run at application time behind a FastAPI service and a React interface.
+          </p>
+
+          <!-- System Architecture Overview Diagram -->
+          <div style="margin: 1.5rem 0; border-radius: var(--radius-sm); overflow: hidden; border: 1px solid var(--border);">
+            <img src="images/system-architecture.svg" alt="SmartRelief multi-tier system architecture diagram showing Data Ingestion, Core AI Processing, and Presentation Dashboard Layers" width="900" height="420" loading="lazy" />
+          </div>
+
+          <!-- Component 1 Methodology -->
+          <div id="method-c1" style="margin-top: 1.6rem;">
+            <h4 style="font-size: 1.15rem; color: var(--text); margin-bottom: 0.5rem;">Component 1 Methodology — Emergency Alerting, Camp Planning and Hazard Prediction</h4>
+            <p>
+              Data: historical flood and landslide records, with rainfall, SRTM elevation and derived slope, ESA land cover and SMAP soil moisture where used, aligned to geographic boundaries <!-- TODO: team to confirm which layers are in the final feature set -->. Data preparation aligns coordinate reference systems and resolution, extracts features per geographic unit, associates them with historical labels, cleans missing values, and splits data while avoiding leakage between neighbouring locations. Models: Logistic Regression and Random Forest were compared for flood prediction, with Logistic Regression reported as selected (82.4%), and Random Forest for landslides (91.3%); metric names and test splits are to be confirmed <!-- TODO: team to confirm metric name and deployed model before publishing -->. SOS priority uses a Random Forest regressor over urgency, number of affected people, vulnerable people and risk; camp suitability uses a Random Forest regressor over affected population, SOS demand, accessibility, nearby services and hazard exposure, followed by hard safety and operational constraints. The SOS endpoint validates a JWT, checks role, validates the payload, scores priority, stores the request and notifies authorised responders. Camp candidates are shown on a Leaflet map for authority review. A prediction is not a guarantee that a hazard will occur, and live prediction would additionally require an ingestion source, refresh schedule and stale-data handling.
+            </p>
+          </div>
+
+          <!-- Component 2 Methodology -->
+          <div id="method-c2" style="margin-top: 1.6rem;">
+            <h4 style="font-size: 1.15rem; color: var(--text); margin-bottom: 0.5rem;">Component 2 Methodology — Integrated Disaster Relief Prediction</h4>
+            <p>
+              Population estimation: the Roboflow Universe Head Detection dataset (v1) provides head images with bounding boxes. Three candidate detectors (YOLOv8n, YOLO11n, YOLO26n) were trained from scratch under identical conditions with patience-based early stopping and a 150-epoch maximum, and compared on a held-out validation set of 422 images containing 4,449 heads. YOLOv8n gave the best overall result and was selected; counts from several images of one centre are summed to cover large sites. Relief demand: the estimated count is multiplied by government-defined per-person and per-family requirement rates to give item quantities, which become structured donation requests. Forecasting: hourly camp population is modelled as a time-series regression with lagged population, short-term change, rolling mean and cumulative rainfall features, using Random Forest regression, exported as JSON trees for in-browser inference. Donor targeting: a Random Forest regression scores donor contribution probability from history, item categories, quantities, response time and distance, combined with geographic proximity; dynamic allocation tracks donated versus remaining quantities and retires fulfilled items.
+            </p>
+          </div>
+
+          <!-- Component 3 Methodology -->
+          <div id="method-c3" style="margin-top: 1.6rem;">
+            <h4 style="font-size: 1.15rem; color: var(--text); margin-bottom: 0.5rem;">Component 3 Methodology — Patient Severity Triage and Multilingual Appeal Quality Scoring</h4>
+            <p>
+              Triage data and labels: 7,578 NHAMCS 2022 emergency-department visits <a href="#ref-23" class="cite-link">[23]</a>, relabelled LOW (3,124), MEDIUM (2,472) or HIGH (1,982) under a clinician-guided policy built on vital-sign thresholds, red-flag patterns and procedure codes and reviewed by a medical professional. Because the policy uses vitals and red flags that are also inputs, the task is policy reproduction, and this is stated as a limitation. Splits: 80/10/10 by stratified group sampling on patient profile (identical complaint text and age), giving train 6,090, validation 748 and test 740, so no profile crosses splits; preprocessing is fitted on training data only. Features: 1,457 linear and 193 tree features including age bands, six vitals with missing indicators, eleven vital-threshold flags, six red flags, and 1-2-gram TF-IDF of the complaint. Models: three logistic regressions, LightGBM and XGBoost as base models; five-fold profile-grouped out-of-fold probabilities feed a logistic-regression meta-learner. Decision policy: a threshold cascade selected by grid search to maximise balanced recall subject to HIGH recall of at least 0.90, with two raise-only safety layers; a rule engine of 31 critical triggers bypasses the model. Evaluation: bootstrap 95% confidence intervals, Wilson intervals, under- versus over-triage accounting, robustness tests (missing vitals, noise, typed free text, subgroups, resampled prevalence) and a safety-layer ablation.
+            </p>
+            <p>
+              Appeal data: 7,100 collected appeals (English 4,600; Sinhala 1,250; Tamil 1,250) with quality scores 1-5 mapped to LOW (1-2), MEDIUM (3) and HIGH (4-5). English text comes from a subset of MDCC <a href="#ref-24" class="cite-link">[24]</a> (CC BY-NC 4.0), a public GoFundMe research corpus and other public sources; Sinhala and Tamil text is mostly native-reviewed augmentation, with a small web-sourced portion and some AI-generated boundary cases. To limit augmented share, 40% of augmented or AI-generated Sinhala and Tamil rows are kept, giving 5,627 appeals (4,600 English, 511 Sinhala, 516 Tamil). Pipeline: per-language branches (word 1-2-gram TF-IDF with 150-dimensional LSA for English; character 3-5-gram TF-IDF with 50-dimensional LSA for Sinhala and Tamil), thirteen handcrafted features, a calibrated Random Forest classifier and a Gradient Boosting regressor with isotonic correction. Evaluation: stratified 20% hold-out (1,126 appeals) plus 5-fold cross-validation; accuracy, macro-F1, per-class recall, MAE and R².
+            </p>
+          </div>
+
+          <h4 style="font-size: 1.15rem; color: var(--text); margin-top: 2rem; margin-bottom: 0.5rem;">Evaluation results summary</h4>
+
+          <!-- Table 1 -->
+          <div class="table-caption">Table 1 - Component 2 head detection (validation, 422 images, 4,449 heads)</div>
+          <div class="table-wrapper">
+            <table class="research-table">
+              <thead>
+                <tr>
+                  <th>Model</th>
+                  <th>Precision</th>
+                  <th>Recall</th>
+                  <th>mAP50</th>
+                  <th>mAP50-95</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>YOLOv8n (selected)</strong></td>
+                  <td>0.914</td>
+                  <td>0.798</td>
+                  <td>0.886</td>
+                  <td>0.569</td>
+                </tr>
+                <tr>
+                  <td>YOLO11n</td>
+                  <td>0.911</td>
+                  <td>0.782</td>
+                  <td>0.878</td>
+                  <td>0.566</td>
+                </tr>
+                <tr>
+                  <td>YOLO26n</td>
+                  <td>0.888</td>
+                  <td>0.776</td>
+                  <td>0.870</td>
+                  <td>0.554</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Table 2 -->
+          <div class="table-caption">Table 2 - Component 3 triage by partition (after safety layers)</div>
+          <div class="table-wrapper">
+            <table class="research-table">
+              <thead>
+                <tr>
+                  <th>Partition</th>
+                  <th>n</th>
+                  <th>Accuracy</th>
+                  <th>Balanced accuracy</th>
+                  <th>Macro-F1</th>
+                  <th>HIGH recall</th>
+                  <th>HIGH-to-LOW errors</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Train fitted</td>
+                  <td>6,090</td>
+                  <td>0.949</td>
+                  <td>0.947</td>
+                  <td>0.944</td>
+                  <td>0.959</td>
+                  <td>14</td>
+                </tr>
+                <tr>
+                  <td>Train OOF</td>
+                  <td>6,090</td>
+                  <td>0.919</td>
+                  <td>0.916</td>
+                  <td>0.913</td>
+                  <td>0.932</td>
+                  <td>36</td>
+                </tr>
+                <tr>
+                  <td>Validation</td>
+                  <td>748</td>
+                  <td>0.910</td>
+                  <td>0.905</td>
+                  <td>0.899</td>
+                  <td>0.900</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>Test</td>
+                  <td>740</td>
+                  <td>0.888</td>
+                  <td>0.885</td>
+                  <td>0.883</td>
+                  <td>0.905</td>
+                  <td>5</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Table 3 -->
+          <div class="table-caption">Table 3 - Safety-layer ablation on the test set</div>
+          <div class="table-wrapper">
+            <table class="research-table">
+              <thead>
+                <tr>
+                  <th>Setting</th>
+                  <th>Balanced accuracy</th>
+                  <th>HIGH recall</th>
+                  <th>HIGH-to-LOW</th>
+                  <th>MEDIUM-to-HIGH</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Model only</td>
+                  <td>0.914</td>
+                  <td>0.872</td>
+                  <td>8</td>
+                  <td>22</td>
+                </tr>
+                <tr>
+                  <td>Red-flag layer only</td>
+                  <td>0.885</td>
+                  <td>0.882</td>
+                  <td>8</td>
+                  <td>39</td>
+                </tr>
+                <tr>
+                  <td>Complaint layer only</td>
+                  <td>0.915</td>
+                  <td>0.896</td>
+                  <td>5</td>
+                  <td>24</td>
+                </tr>
+                <tr>
+                  <td>Both layers (deployed)</td>
+                  <td>0.885</td>
+                  <td>0.905</td>
+                  <td>5</td>
+                  <td>41</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p style="font-size: 0.92rem; color: var(--text-muted); margin-bottom: 1.4rem;">
+            The complaint layer is the efficient safeguard, and the red-flag layer drives most over-triage.
+          </p>
+
+          <!-- Table 4 -->
+          <div class="table-caption">Table 4 - Appeal scoring on the held-out test set</div>
+          <div class="table-wrapper">
+            <table class="research-table">
+              <thead>
+                <tr>
+                  <th>Subset</th>
+                  <th>n</th>
+                  <th>Accuracy</th>
+                  <th>95% CI (Wilson)</th>
+                  <th>MAE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>English</td>
+                  <td>901</td>
+                  <td>0.782</td>
+                  <td>0.754–0.808</td>
+                  <td>0.354</td>
+                </tr>
+                <tr>
+                  <td>Sinhala</td>
+                  <td>111</td>
+                  <td>0.883</td>
+                  <td>0.810–0.930</td>
+                  <td>0.253</td>
+                </tr>
+                <tr>
+                  <td>Tamil</td>
+                  <td>114</td>
+                  <td>0.895</td>
+                  <td>0.825–0.939</td>
+                  <td>0.249</td>
+                </tr>
+                <tr>
+                  <td><strong>All</strong></td>
+                  <td><strong>1,126</strong></td>
+                  <td><strong>0.804</strong></td>
+                  <td><strong>0.780–0.826</strong></td>
+                  <td><strong>0.333</strong></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="domain-placeholder-box" style="margin-top: 1.4rem;">
+            <p style="margin: 0;">
+              <strong>Component 1 reported results:</strong> flood = Logistic Regression, 82.4%; landslide = Random Forest, 91.3% — <!-- TODO: team to confirm metric and split --> (to be confirmed: metric and split).
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- SUBSECTION: Technologies Used -->
+      <div id="technologies" class="domain-section-block">
+        <div class="domain-section-title">
+          <h3>Technologies Used</h3>
+          <a href="#domain" class="top-link">↑ Back to Domain TOC</a>
+        </div>
+        <div class="domain-body">
+          <div class="table-wrapper">
+            <table class="research-table">
+              <thead>
+                <tr>
+                  <th style="width: 28%;">Category</th>
+                  <th>Technologies, Frameworks &amp; Datasets</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Frontend</strong></td>
+                  <td>React, Leaflet / React-Leaflet</td>
+                </tr>
+                <tr>
+                  <td><strong>Backend and security</strong></td>
+                  <td>FastAPI (REST services), JWT authentication with role-based access</td>
+                </tr>
+                <tr>
+                  <td><strong>Computer vision</strong></td>
+                  <td>YOLOv8n (selected), YOLO11n, YOLO26n, Roboflow Universe Head Detection dataset</td>
+                </tr>
+                <tr>
+                  <td><strong>Machine learning</strong></td>
+                  <td>Random Forest, Logistic Regression, LightGBM, XGBoost, Gradient Boosting, stacked generalisation, probability calibration (isotonic), TF-IDF and latent semantic analysis, scispaCy (clinical entity recognition)</td>
+                </tr>
+                <tr>
+                  <td><strong>Geospatial and environmental data</strong></td>
+                  <td>CHIRPS rainfall, SRTM elevation and slope, ESA land cover, SMAP soil moisture <!-- TODO: team to confirm which are used -->, administrative boundaries</td>
+                </tr>
+                <tr>
+                  <td><strong>Datasets</strong></td>
+                  <td>NHAMCS 2022 <a href="#ref-23" class="cite-link">[23]</a>, MDCC <a href="#ref-24" class="cite-link">[24]</a>, public GoFundMe research corpus, government relief-requirement rates</td>
+                </tr>
+                <tr>
+                  <td><strong>Language support</strong></td>
+                  <td>English, Sinhala, Tamil</td>
+                </tr>
+                <tr>
+                  <td><strong>Appeal generation</strong></td>
+                  <td>Hosted large language model with template fallback</td>
+                </tr>
+                <tr>
+                  <td><strong>Deployment note</strong></td>
+                  <td>Models are packaged with pinned library versions and a model card; the next-hour forecaster runs in the browser from exported JSON decision trees.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- SUBSECTION: Limitations and Validation Status -->
+      <div id="limitations" class="domain-section-block">
+        <div class="domain-section-title">
+          <h3>Limitations and Validation Status</h3>
+          <a href="#domain" class="top-link">↑ Back to Domain TOC</a>
+        </div>
+        <div class="domain-body">
+          <ul class="feature-list">
+            <li>All three components are working prototypes; the evidence supports the engineering and the evaluation, not clinical or donor-behaviour claims.</li>
+            <li>Triage: both the labels and features derive from vitals, red flags and complaint patterns, so scores measure policy reproduction. NHAMCS is United States emergency-department data and differs from disaster-camp populations. Five HIGH-to-LOW errors in 211 HIGH patients (95% CI 1.0-5.4%) mean under-triage is reduced but not eliminated; 41 MEDIUM patients were promoted to HIGH. HIGH recall is lowest for patients aged 65 or over (0.765, 51 HIGH patients). Typed free-text complaints that do not match the coded complaints cost balanced accuracy (0.885 to 0.802) before the complaint mapper restores it. Needed: independent outcome labels on camp-like data, calibration analysis, and an ethics-approved pilot.</li>
+            <li>Appeals: Sinhala and Tamil accuracy (0.88 and 0.90) largely reflects augmented or AI-generated text and should not be read as quality prediction; only 20 Sinhala and 28 Tamil appeals are web-sourced. The random test split may allow near-duplicates on both sides. Needed: blinded annotation of real Sinhala and Tamil appeals by two native speakers, with augmented text kept out of the test set. Appeal scores advise coordinators and must not decide whether a request is genuine; appeal text drawn from real campaigns must be paraphrased or anonymised, and the MDCC licence (attribution, non-commercial) applies.</li>
+            <li>Hazard prediction: a historical model is not a live forecast, and a high camp-suitability score never replaces reliable hazard data and human review.</li>
+            <li>Before field use the platform needs access control, rate limiting, consent and a retention policy.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- SUBSECTION: References -->
+      <div id="references" class="domain-section-block">
+        <div class="domain-section-title">
+          <h3>References</h3>
+          <a href="#domain" class="top-link">↑ Back to Domain TOC</a>
+        </div>
+        <div class="domain-body">
+          <ol class="references-list">
+            <li class="reference-item" id="ref-1">
+              <span class="reference-num">[1]</span>
+              J. Hinson et al., "Triage performance in emergency medicine: A systematic review," <em>Ann. Emerg. Med.</em>, vol. 74, no. 1, pp. 140-152, 2019, doi: 10.1016/j.annemergmed.2018.09.022.
+            </li>
+            <li class="reference-item" id="ref-2">
+              <span class="reference-num">[2]</span>
+              J. M. Zachariasse et al., "Performance of triage systems in emergency care: a systematic review and meta-analysis," <em>BMJ Open</em>, vol. 9, no. 5, 2019, doi: 10.1136/bmjopen-2018-026471.
+            </li>
+            <li class="reference-item" id="ref-3">
+              <span class="reference-num">[3]</span>
+              Y. Shen and L. Juan, "Diagnostic accuracy of ED triage systems: A systematic review," <em>Am. J. Emerg. Med.</em>, 2026, doi: 10.1016/j.ajem.2026.06.034.
+            </li>
+            <li class="reference-item" id="ref-4">
+              <span class="reference-num">[4]</span>
+              N. Acosta et al., "Clinical triage in resource-limited emergency settings: A systematic review," <em>Prehospital Emerg. Care</em>, vol. 27, no. 4, pp. 421-432, 2023.
+            </li>
+            <li class="reference-item" id="ref-5">
+              <span class="reference-num">[5]</span>
+              X. Zhang et al., "How linguistic style of medical crowdfunding appeal influences donations," <em>Technol. Forecast. Soc. Change</em>, vol. 199, 2024, doi: 10.1016/j.techfore.2024.123394.
+            </li>
+            <li class="reference-item" id="ref-6">
+              <span class="reference-num">[6]</span>
+              Y. Wu, X. Zhang, and Q. Xiao, "Appeal to the head and heart: persuasive effects of medical crowdfunding appeals," <em>Inf. Process. Manag.</em>, vol. 59, no. 2, 2022, doi: 10.1016/j.ipm.2021.102792.
+            </li>
+            <li class="reference-item" id="ref-7">
+              <span class="reference-num">[7]</span>
+              S. Levin et al., "Machine-learning-based electronic triage more accurately differentiates patients vs. the ESI," <em>Ann. Emerg. Med.</em>, vol. 71, no. 5, pp. 565-574, 2017, doi: 10.1016/j.annemergmed.2017.08.005.
+            </li>
+            <li class="reference-item" id="ref-8">
+              <span class="reference-num">[8]</span>
+              Y. Raita, T. Goto, M. K. Faridi, D. F. M. Brown, C. A. Camargo, and K. Hasegawa, "Emergency department triage prediction of clinical outcomes using machine learning models," <em>Crit. Care</em>, vol. 23, art. no. 64, 2019, doi: 10.1186/s13054-019-2351-7.
+            </li>
+            <li class="reference-item" id="ref-9">
+              <span class="reference-num">[9]</span>
+              Y. H. Chang et al., "Using machine learning and natural language processing in triage for prediction of clinical disposition in the emergency department," <em>BMC Emerg. Med.</em>, vol. 24, art. no. 237, 2024, doi: 10.1186/s12873-024-01152-1.
+            </li>
+            <li class="reference-item" id="ref-10">
+              <span class="reference-num">[10]</span>
+              A. Tahernejad, A. Sahebi, A. S. S. Abadi, and M. Safari, "Application of artificial intelligence in triage in emergencies and disasters: A systematic review," <em>BMC Public Health</em>, vol. 24, art. no. 3203, 2024, doi: 10.1186/s12889-024-20447-3.
+            </li>
+            <li class="reference-item" id="ref-11">
+              <span class="reference-num">[11]</span>
+              S. Kaufman, S. Rosset, C. Perlich, and O. Stitelman, "Leakage in data mining: Formulation, detection, and avoidance," <em>ACM Trans. Knowl. Discov. Data</em>, vol. 6, no. 4, art. 15, 2012.
+            </li>
+            <li class="reference-item" id="ref-12">
+              <span class="reference-num">[12]</span>
+              R. Wuerz et al., "Reliability and validity of a new five-level triage instrument," <em>Acad. Emerg. Med.</em>, vol. 7, no. 3, pp. 236-242, 2000, doi: 10.1111/j.1553-2712.2000.tb01066.x.
+            </li>
+            <li class="reference-item" id="ref-13">
+              <span class="reference-num">[13]</span>
+              D. H. Wolpert, "Stacked generalization," <em>Neural Netw.</em>, vol. 5, no. 2, pp. 241-259, 1992.
+            </li>
+            <li class="reference-item" id="ref-14">
+              <span class="reference-num">[14]</span>
+              G. Ke et al., "LightGBM: A highly efficient gradient boosting decision tree," in <em>Proc. Adv. Neural Inf. Process. Syst. (NIPS)</em>, 2017, pp. 3146-3154.
+            </li>
+            <li class="reference-item" id="ref-15">
+              <span class="reference-num">[15]</span>
+              T. Chen and C. Guestrin, "XGBoost: A scalable tree boosting system," in <em>Proc. 22nd ACM SIGKDD Int. Conf. Knowl. Discov. Data Min.</em>, 2016, pp. 785-794.
+            </li>
+            <li class="reference-item" id="ref-16">
+              <span class="reference-num">[16]</span>
+              J. Caffier, O. Stavrova, and B. Kleinberg, "Prosocial persuasion at scale? LLMs outperform humans in donation appeals," <em>arXiv:2604.03202</em>, 2026.
+            </li>
+            <li class="reference-item" id="ref-17">
+              <span class="reference-num">[17]</span>
+              S. Deerwester, S. T. Dumais, G. W. Furnas, T. K. Landauer, and R. Harshman, "Indexing by latent semantic analysis," <em>J. Amer. Soc. Inf. Sci.</em>, vol. 41, no. 6, pp. 391-407, 1990.
+            </li>
+            <li class="reference-item" id="ref-18">
+              <span class="reference-num">[18]</span>
+              L. Breiman, "Random forests," <em>Mach. Learn.</em>, vol. 45, no. 1, pp. 5-32, 2001.
+            </li>
+            <li class="reference-item" id="ref-19">
+              <span class="reference-num">[19]</span>
+              J. H. Friedman, "Greedy function approximation: A gradient boosting machine," <em>Ann. Statist.</em>, vol. 29, no. 5, pp. 1189-1232, 2001.
+            </li>
+            <li class="reference-item" id="ref-20">
+              <span class="reference-num">[20]</span>
+              J. C. Platt, "Probabilistic outputs for support vector machines and comparisons to regularized likelihood methods," in <em>Advances in Large Margin Classifiers</em>, MIT Press, 1999, pp. 61-74.
+            </li>
+            <li class="reference-item" id="ref-21">
+              <span class="reference-num">[21]</span>
+              R. Geirhos et al., "Shortcut learning in deep neural networks," <em>Nat. Mach. Intell.</em>, vol. 2, pp. 665-673, 2020.
+            </li>
+            <li class="reference-item" id="ref-22">
+              <span class="reference-num">[22]</span>
+              P. Lanerolle et al., "Donate.lk: A smart donation handling system," in <em>Proc. 2018 Natl. Inf. Technol. Conf. (NITC)</em>, Colombo, Sri Lanka, 2018, pp. 1-6, doi: 10.1109/NITC.2018.8550078.
+            </li>
+            <li class="reference-item" id="ref-23">
+              <span class="reference-num">[23]</span>
+              NCHS/CDC, "2022 NHAMCS Emergency Department public-use data file," National Center for Health Statistics, 2022. [Online]. Available: https://www.cdc.gov/nchs/ahcd
+            </li>
+            <li class="reference-item" id="ref-24">
+              <span class="reference-num">[24]</span>
+              X. Xu, J. Li, and F. Zhou, "MDCC: A multimodal dynamic dataset for donation-based crowdfunding campaigns," in <em>Proc. 32nd ACM Int. Conf. Inf. Knowl. Manag. (CIKM)</em>, 2023, pp. 5417-5421, doi: 10.1145/3583780.3615124.
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- Section Footer Navigation -->
+      <div class="section-footer-nav">
+        <a href="#home" class="sec-nav-link top-link">↑ Back to top</a>
+        <a href="#milestones" class="sec-nav-link next-link">Next: Milestones ↓</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 3: MILESTONES (#milestones)
+       ========================================================================= -->
+  <section id="milestones" class="page-section" aria-labelledby="milestones-heading">
+    <div class="site-wrap">
+      <div class="section-breadcrumb">
+        <a href="#home">SmartRelief</a>
+        <span aria-hidden="true">›</span>
+        <span class="bc-current">Milestones</span>
+      </div>
+
+      <div class="section-header">
+        <span class="section-tag">Project Timeline &amp; Evaluations</span>
+        <h2 id="milestones-heading">Academic Milestones &amp; Assessment Schedule</h2>
+        <p class="section-lead">Tracking research evaluations, deliverables, assessment dates, and marks allocation throughout the academic research lifecycle.</p>
+        <div class="milestones-summary-pill" style="display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 1.1rem; padding: 0.5rem 1.1rem; background: rgba(59, 130, 246, 0.12); border: 1px solid rgba(59, 130, 246, 0.3); border-radius: var(--radius-pill); color: #93c5fd; font-weight: 600; font-size: 0.95rem;">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          <span>Marks assigned so far: 84</span>
+        </div>
+      </div>
+
+      <div class="milestones-wrapper">
+
+        <!-- Milestone 01: Proposal Submission -->
+        <details class="milestone-item" open>
+          <summary class="milestone-summary">
+            <div class="milestone-header-left">
+              <span class="milestone-number">01</span>
+              <span class="milestone-title">Proposal Submission</span>
+              <div class="milestone-badges">
+                <span class="badge available">Completed</span>
+                <span class="milestone-meta-pill marks">Marks: 6 (combined with entry 2)</span> <!-- TODO: team to confirm marks against the 2026 marking scheme -->
+                <span class="milestone-meta-pill">May 2026</span>
+              </div>
+            </div>
+            <div class="milestone-chevron" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </summary>
+          <div class="milestone-content">
+            <div class="milestone-grid">
+              <div class="milestone-detail-card">
+                <h4>Assessment Date</h4>
+                <p>May 2026</p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Marks Allocated</h4>
+                <p>Marks allocated: 6 (combined with entry 2) <!-- TODO: team to confirm marks against the 2026 marking scheme --></p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Format</h4>
+                <p>Proposal Document &amp; Project Charter Submission</p>
+              </div>
+            </div>
+
+            <div class="milestone-tasks">
+              <h4>Assessment Scope &amp; Deliverables:</h4>
+              <ul>
+                <li>Finalized Project Proposal Document detailing domain background, problem formulation, and methodology.</li>
+                <li>Comprehensive Project Charter formalizing individual component responsibilities, group norms, and timelines.</li>
+                <li>Identification of initial research literature, benchmark datasets, and architectural frameworks.</li>
+              </ul>
+            </div>
+          </div>
+        </details>
+
+        <!-- Milestone 02: Proposal Presentation -->
+        <details class="milestone-item">
+          <summary class="milestone-summary">
+            <div class="milestone-header-left">
+              <span class="milestone-number">02</span>
+              <span class="milestone-title">Proposal Presentation</span>
+              <div class="milestone-badges">
+                <span class="badge available">Completed</span>
+                <span class="milestone-meta-pill marks">Marks: Included in Proposal (6)</span> <!-- TODO: team to confirm marks against the 2026 marking scheme -->
+                <span class="milestone-meta-pill">May 2026</span>
+              </div>
+            </div>
+            <div class="milestone-chevron" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </summary>
+          <div class="milestone-content">
+            <div class="milestone-grid">
+              <div class="milestone-detail-card">
+                <h4>Assessment Date</h4>
+                <p>May 2026</p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Marks Allocated</h4>
+                <p>Marks allocated: Included in the 6 marks for Project Proposal <!-- TODO: team to confirm marks against the 2026 marking scheme --></p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Format</h4>
+                <p>Oral Presentation &amp; Panel Defense</p>
+              </div>
+            </div>
+
+            <div class="milestone-tasks">
+              <h4>Assessment Scope &amp; Deliverables:</h4>
+              <ul>
+                <li>Oral defense of research novelty, literature gaps, problem statement, and proposed system architecture.</li>
+                <li>Presentation of individual component scopes across the three research leads.</li>
+                <li>Academic evaluation panel review and supervisor feedback incorporation.</li>
+              </ul>
+            </div>
+          </div>
+        </details>
+
+        <!-- Milestone 03: Progress Presentation 1 -->
+        <details class="milestone-item">
+          <summary class="milestone-summary">
+            <div class="milestone-header-left">
+              <span class="milestone-number">03</span>
+              <span class="milestone-title">Progress Presentation 1</span>
+              <div class="milestone-badges">
+                <span class="badge available">Completed</span>
+                <span class="milestone-meta-pill marks">Marks: 6</span> <!-- TODO: team to confirm marks against the 2026 marking scheme -->
+                <span class="milestone-meta-pill">July 2026</span>
+              </div>
+            </div>
+            <div class="milestone-chevron" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </summary>
+          <div class="milestone-content">
+            <div class="milestone-grid">
+              <div class="milestone-detail-card">
+                <h4>Assessment Date</h4>
+                <p>July 2026</p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Marks Allocated</h4>
+                <p>Marks allocated: 6 <!-- TODO: team to confirm marks against the 2026 marking scheme --></p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Format</h4>
+                <p>50% Implementation Review &amp; Code Inspection</p>
+              </div>
+            </div>
+
+            <div class="milestone-tasks">
+              <h4>Assessment Scope &amp; Deliverables:</h4>
+              <ul>
+                <li>Demonstration of initial data pipeline: GPS SOS telemetry ingestion and spatial dataset preparation.</li>
+                <li>Initial training results for the machine learning flood risk classifier and baseline models.</li>
+                <li>Progress on the YOLO crowd density estimation prototype for camp assembly points.</li>
+                <li>Demonstration of preliminary clinical triage decision support rules.</li>
+              </ul>
+            </div>
+          </div>
+        </details>
+
+        <!-- Milestone 04: Check List Submission -->
+        <details class="milestone-item">
+          <summary class="milestone-summary">
+            <div class="milestone-header-left">
+              <span class="milestone-number">04</span>
+              <span class="milestone-title">Check List Submission</span>
+              <div class="milestone-badges">
+                <span class="badge available">Completed</span>
+                <span class="milestone-meta-pill marks">Marks: TBC</span> <!-- TODO: team to confirm marks against the 2026 marking scheme -->
+                <span class="milestone-meta-pill">July 2026</span>
+              </div>
+            </div>
+            <div class="milestone-chevron" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </summary>
+          <div class="milestone-content">
+            <div class="milestone-grid">
+              <div class="milestone-detail-card">
+                <h4>Assessment Date</h4>
+                <p>July 2026</p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Marks Allocated</h4>
+                <p>Marks allocated: TBC <!-- TODO: team to confirm marks against the 2026 marking scheme --></p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Format</h4>
+                <p>Progress Evaluation Form Submission</p>
+              </div>
+            </div>
+
+            <div class="milestone-tasks">
+              <h4>Assessment Scope &amp; Deliverables:</h4>
+              <ul>
+                <li>Submission of Progress Checklist 1 with supervisor sign-off and milestone verification.</li>
+                <li>Validation of individual contribution quotas and codebase milestone progress.</li>
+                <li>Supervisory feedback report on implementation pacing and dataset readiness.</li>
+              </ul>
+            </div>
+          </div>
+        </details>
+
+        <!-- Milestone 05: Progress Presentation 2 -->
+        <details class="milestone-item">
+          <summary class="milestone-summary">
+            <div class="milestone-header-left">
+              <span class="milestone-number">05</span>
+              <span class="milestone-title">Progress Presentation 2</span>
+              <div class="milestone-badges">
+                <span class="badge available">Completed</span>
+                <span class="milestone-meta-pill marks">Marks: 18</span> <!-- TODO: team to confirm marks against the 2026 marking scheme -->
+                <span class="milestone-meta-pill">September 2026</span>
+              </div>
+            </div>
+            <div class="milestone-chevron" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </summary>
+          <div class="milestone-content">
+            <div class="milestone-grid">
+              <div class="milestone-detail-card">
+                <h4>Assessment Date</h4>
+                <p>September 2026</p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Marks Allocated</h4>
+                <p>Marks allocated: 18 <!-- TODO: team to confirm marks against the 2026 marking scheme --></p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Format</h4>
+                <p>90% System Integration Review &amp; Evaluation</p>
+              </div>
+            </div>
+
+            <div class="milestone-tasks">
+              <h4>Assessment Scope &amp; Deliverables:</h4>
+              <ul>
+                <li>Live evaluation of end-to-end integration: Emergency risk dispatch, camp forecasting, and triage queues.</li>
+                <li>Benchmarking results for medical triage classification and multilingual (EN/SI/TA) appeal scoring.</li>
+                <li>Demonstration of in-browser offline caching resilience under simulated network disconnection.</li>
+                <li>Submission of Progress Checklist 2 and draft research paper.</li>
+              </ul>
+            </div>
+          </div>
+        </details>
+
+        <!-- Milestone 06: Draft Thesis Submission -->
+        <details class="milestone-item">
+          <summary class="milestone-summary">
+            <div class="milestone-header-left">
+              <span class="milestone-number">06</span>
+              <span class="milestone-title">Draft Thesis Submission</span>
+              <div class="milestone-badges">
+                <span class="badge pending">In Progress</span>
+                <span class="milestone-meta-pill marks">Marks: TBC</span> <!-- TODO: team to confirm marks against the 2026 marking scheme -->
+                <span class="milestone-meta-pill">October 2026</span>
+              </div>
+            </div>
+            <div class="milestone-chevron" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </summary>
+          <div class="milestone-content">
+            <div class="milestone-grid">
+              <div class="milestone-detail-card">
+                <h4>Assessment Date</h4>
+                <p>October 2026</p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Marks Allocated</h4>
+                <p>Marks allocated: TBC <!-- TODO: team to confirm marks against the 2026 marking scheme --></p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Format</h4>
+                <p>Draft Dissertation Volume Submission</p>
+              </div>
+            </div>
+
+            <div class="milestone-tasks">
+              <h4>Assessment Scope &amp; Deliverables:</h4>
+              <ul>
+                <li>Submission of the complete draft thesis dissertation volume across all three research components.</li>
+                <li>Detailed theoretical background, literature survey, architectural diagrams, and experimental methodologies.</li>
+                <li>Supervisor review and feedback collection prior to camera-ready final binding.</li>
+              </ul>
+            </div>
+          </div>
+        </details>
+
+        <!-- Milestone 07: Website Submission -->
+        <details class="milestone-item">
+          <summary class="milestone-summary">
+            <div class="milestone-header-left">
+              <span class="milestone-number">07</span>
+              <span class="milestone-title">Website Submission</span>
+              <div class="milestone-badges">
+                <span class="badge pending">In Progress</span>
+                <span class="milestone-meta-pill marks">Marks: Assessed at website evaluation</span> <!-- TODO: team to confirm marks against the 2026 marking scheme -->
+                <span class="milestone-meta-pill">October 2026</span>
+              </div>
+            </div>
+            <div class="milestone-chevron" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </summary>
+          <div class="milestone-content">
+            <div class="milestone-grid">
+              <div class="milestone-detail-card">
+                <h4>Assessment Date</h4>
+                <p>October 2026</p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Marks Allocated</h4>
+                <p>Marks allocated: Assessed at the website evaluation (see below) <!-- TODO: team to confirm marks against the 2026 marking scheme --></p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Format</h4>
+                <p>Static Portfolio Web Deployment</p>
+              </div>
+            </div>
+
+            <div class="milestone-tasks">
+              <h4>Assessment Scope &amp; Deliverables:</h4>
+              <ul>
+                <li>Deployment of the single scrolling page static research portfolio adhering strictly to HTML/CSS specifications.</li>
+                <li>Complete coverage of project domain, milestones, deliverable documents, slide decks, and contact channels.</li>
+                <li>Compliance verification: No prohibited technology mentions, under 12 MB total size, optimized assets.</li>
+              </ul>
+            </div>
+          </div>
+        </details>
+
+        <!-- Milestone 08: Final Check List Submission -->
+        <details class="milestone-item">
+          <summary class="milestone-summary">
+            <div class="milestone-header-left">
+              <span class="milestone-number">08</span>
+              <span class="milestone-title">Final Check List Submission</span>
+              <div class="milestone-badges">
+                <span class="badge pending">Upcoming</span>
+                <span class="milestone-meta-pill marks">Marks: TBC</span> <!-- TODO: team to confirm marks against the 2026 marking scheme -->
+                <span class="milestone-meta-pill">October 2026</span>
+              </div>
+            </div>
+            <div class="milestone-chevron" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </summary>
+          <div class="milestone-content">
+            <div class="milestone-grid">
+              <div class="milestone-detail-card">
+                <h4>Assessment Date</h4>
+                <p>October 2026</p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Marks Allocated</h4>
+                <p>Marks allocated: TBC <!-- TODO: team to confirm marks against the 2026 marking scheme --></p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Format</h4>
+                <p>Final Readiness Sign-Off Document</p>
+              </div>
+            </div>
+
+            <div class="milestone-tasks">
+              <h4>Assessment Scope &amp; Deliverables:</h4>
+              <ul>
+                <li>Submission of the Final Milestone Checklist endorsed by project supervisor and co-supervisor.</li>
+                <li>Verification of complete deliverables repository, documentation sign-offs, and defense readiness.</li>
+              </ul>
+            </div>
+          </div>
+        </details>
+
+        <!-- Milestone 09: Final Presentation and Viva -->
+        <details class="milestone-item">
+          <summary class="milestone-summary">
+            <div class="milestone-header-left">
+              <span class="milestone-number">09</span>
+              <span class="milestone-title">Final Presentation and Viva</span>
+              <div class="milestone-badges">
+                <span class="badge pending">Upcoming</span>
+                <span class="milestone-meta-pill marks">Marks: 20</span> <!-- TODO: team to confirm marks against the 2026 marking scheme -->
+                <span class="milestone-meta-pill">October / November 2026</span>
+              </div>
+            </div>
+            <div class="milestone-chevron" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </summary>
+          <div class="milestone-content">
+            <div class="milestone-grid">
+              <div class="milestone-detail-card">
+                <h4>Assessment Date</h4>
+                <p>October / November 2026</p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Marks Allocated</h4>
+                <p>Marks allocated: 20 <!-- TODO: team to confirm marks against the 2026 marking scheme --></p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Format</h4>
+                <p>Final Oral Defense &amp; Individual Viva Voce</p>
+              </div>
+            </div>
+
+            <div class="milestone-tasks">
+              <h4>Assessment Scope &amp; Deliverables:</h4>
+              <ul>
+                <li>Oral defense before external and internal academic evaluation panels.</li>
+                <li>End-to-end live demonstration of all three research modules in the integrated pipeline.</li>
+                <li>Individual viva voce examination assessing individual contribution, theoretical mastery, and code execution.</li>
+              </ul>
+            </div>
+          </div>
+        </details>
+
+        <!-- Milestone 10: Website Evaluation and Logbook Submission -->
+        <details class="milestone-item">
+          <summary class="milestone-summary">
+            <div class="milestone-header-left">
+              <span class="milestone-number">10</span>
+              <span class="milestone-title">Website Evaluation and Logbook Submission</span>
+              <div class="milestone-badges">
+                <span class="badge pending">Upcoming</span>
+                <span class="milestone-meta-pill marks">Marks: 5 (Website 2 + Logbook 3)</span> <!-- TODO: team to confirm marks against the 2026 marking scheme -->
+                <span class="milestone-meta-pill">October / November 2026</span>
+              </div>
+            </div>
+            <div class="milestone-chevron" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </summary>
+          <div class="milestone-content">
+            <div class="milestone-grid">
+              <div class="milestone-detail-card">
+                <h4>Assessment Date</h4>
+                <p>October / November 2026</p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Marks Allocated</h4>
+                <p>Marks allocated: 5 (Website 2 + Logbook 3) <!-- TODO: team to confirm marks against the 2026 marking scheme --></p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Format</h4>
+                <p>Portfolio Inspection &amp; Research Logbook Audit</p>
+              </div>
+            </div>
+
+            <div class="milestone-tasks">
+              <h4>Assessment Scope &amp; Deliverables:</h4>
+              <ul>
+                <li>Formal academic evaluation of the deployed portfolio website (2 marks).</li>
+                <li>Inspection and verification of student research logbooks documenting regular progress and supervisor consultations (3 marks).</li>
+              </ul>
+            </div>
+          </div>
+        </details>
+
+        <!-- Milestone 11: Research Paper Submission -->
+        <details class="milestone-item">
+          <summary class="milestone-summary">
+            <div class="milestone-header-left">
+              <span class="milestone-number">11</span>
+              <span class="milestone-title">Research Paper Submission</span>
+              <div class="milestone-badges">
+                <span class="badge pending">Upcoming</span>
+                <span class="milestone-meta-pill marks">Marks: 10</span> <!-- TODO: team to confirm marks against the 2026 marking scheme -->
+                <span class="milestone-meta-pill">November 2026</span>
+              </div>
+            </div>
+            <div class="milestone-chevron" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </summary>
+          <div class="milestone-content">
+            <div class="milestone-grid">
+              <div class="milestone-detail-card">
+                <h4>Assessment Date</h4>
+                <p>November 2026</p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Marks Allocated</h4>
+                <p>Marks allocated: 10 <!-- TODO: team to confirm marks against the 2026 marking scheme --></p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Format</h4>
+                <p>Peer-Reviewed Conference Manuscript Submission</p>
+              </div>
+            </div>
+
+            <div class="milestone-tasks">
+              <h4>Assessment Scope &amp; Deliverables:</h4>
+              <ul>
+                <li>Submission of the complete IEEE-formatted camera-ready research paper draft.</li>
+                <li>Methodological ablation study, statistical benchmarks, confusion matrices, and empirical validation.</li>
+                <li>Verification of originality, plagiarism index clearance, and academic writing standards.</li>
+              </ul>
+            </div>
+          </div>
+        </details>
+
+        <!-- Milestone 12: Final Thesis Submission -->
+        <details class="milestone-item">
+          <summary class="milestone-summary">
+            <div class="milestone-header-left">
+              <span class="milestone-number">12</span>
+              <span class="milestone-title">Final Thesis Submission</span>
+              <div class="milestone-badges">
+                <span class="badge pending">Upcoming</span>
+                <span class="milestone-meta-pill marks">Marks: 19</span> <!-- TODO: team to confirm marks against the 2026 marking scheme -->
+                <span class="milestone-meta-pill">November 2026</span>
+              </div>
+            </div>
+            <div class="milestone-chevron" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </summary>
+          <div class="milestone-content">
+            <div class="milestone-grid">
+              <div class="milestone-detail-card">
+                <h4>Assessment Date</h4>
+                <p>November 2026</p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Marks Allocated</h4>
+                <p>Marks allocated: 19 <!-- TODO: team to confirm marks against the 2026 marking scheme --></p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Format</h4>
+                <p>Hardcover / Final Digital Bound Dissertation Volume</p>
+              </div>
+            </div>
+
+            <div class="milestone-tasks">
+              <h4>Assessment Scope &amp; Deliverables:</h4>
+              <ul>
+                <li>Submission of the finalized bound dissertation report incorporating panel viva corrections and suggestions.</li>
+                <li>Synthesis of the overarching SmartRelief platform with individual component chapters and supervisor sign-offs.</li>
+                <li>Archival of research artefacts, codebase, and evaluation documentation.</li>
+              </ul>
+            </div>
+          </div>
+        </details>
+
+        <!-- Milestone 13: Research Paper Publication Evidence Submission -->
+        <details class="milestone-item">
+          <summary class="milestone-summary">
+            <div class="milestone-header-left">
+              <span class="milestone-number">13</span>
+              <span class="milestone-title">Research Paper Publication Evidence Submission</span>
+              <div class="milestone-badges">
+                <span class="badge pending">Upcoming</span>
+                <span class="milestone-meta-pill marks">Marks: TBC</span> <!-- TODO: team to confirm marks against the 2026 marking scheme -->
+                <span class="milestone-meta-pill">November 2026</span>
+              </div>
+            </div>
+            <div class="milestone-chevron" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </summary>
+          <div class="milestone-content">
+            <div class="milestone-grid">
+              <div class="milestone-detail-card">
+                <h4>Assessment Date</h4>
+                <p>November 2026</p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Marks Allocated</h4>
+                <p>Marks allocated: TBC <!-- TODO: team to confirm marks against the 2026 marking scheme --></p>
+              </div>
+              <div class="milestone-detail-card">
+                <h4>Format</h4>
+                <p>Publication Verification / Acceptance Letter Submission</p>
+              </div>
+            </div>
+
+            <div class="milestone-tasks">
+              <h4>Assessment Scope &amp; Deliverables:</h4>
+              <ul>
+                <li>Submission of formal conference acceptance notification, peer-review scores, or journal index confirmation.</li>
+                <li>Evidence of conference registration or camera-ready IEEE / Scopus publication submission.</li>
+              </ul>
+            </div>
+          </div>
+        </details>
+
+      </div>
+
+      <!-- Section Footer Navigation -->
+      <div class="section-footer-nav">
+        <a href="#home" class="sec-nav-link top-link">↑ Back to top</a>
+        <a href="#documents" class="sec-nav-link next-link">Next: Documents ↓</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 4: DOCUMENTS & DELIVERABLES (#documents)
+       ========================================================================= -->
+  <section id="documents" class="page-section" aria-labelledby="documents-heading">
+    <div class="site-wrap">
+      <div class="section-breadcrumb">
+        <a href="#home">SmartRelief</a>
+        <span aria-hidden="true">›</span>
+        <span class="bc-current">Documents</span>
+      </div>
+
+      <div class="section-header">
+        <span class="section-tag">Deliverables Repository</span>
+        <h2 id="documents-heading">Project Documents &amp; Deliverables</h2>
+        <p class="section-lead">Direct links to verified academic project documents, research charters, milestone proposals, checklists, thesis submissions, and research papers hosted on Google Drive.</p>
+      </div>
+
+      <div class="documents-grid">
+
+        <!-- 1. Project Charter -->
+        <article class="doc-card">
+          <div class="doc-card-top">
+            <div class="doc-icon-wrap" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+            </div>
+            <div class="doc-card-meta">
+              <div class="doc-card-header">
+                <h3>Project Charter</h3>
+                <span class="badge available">Available</span>
+              </div>
+              <p class="doc-description">Formal project agreement outlining research scope, milestone schedules, group responsibilities, and supervisor sign-offs for Group R26-IT-047.</p>
+              <div class="doc-info-chips">
+                <span>PDF Document</span>
+                <span>·</span>
+                <span>Version 1.0 Final</span>
+              </div>
+            </div>
+          </div>
+          <div class="doc-action-area">
+            <span style="font-size: 0.8rem; color: var(--text-faint);">Google Drive Repository</span>
+            <!-- TODO: team to add Google Drive link for Project Charter -->
+            <a href="#" class="doc-action-btn" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              Open in Drive
+            </a>
+          </div>
+        </article>
+
+        <!-- 2. Proposal Document -->
+        <article class="doc-card">
+          <div class="doc-card-top">
+            <div class="doc-icon-wrap" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+            </div>
+            <div class="doc-card-meta">
+              <div class="doc-card-header">
+                <h3>Proposal Document</h3>
+                <span class="badge available">Available</span>
+              </div>
+              <p class="doc-description">Detailed research proposal report comprising domain literature review, problem formulation, methodology, and proposed architecture.</p>
+              <div class="doc-info-chips">
+                <span>PDF Document</span>
+                <span>·</span>
+                <span>Full Proposal Report</span>
+              </div>
+            </div>
+          </div>
+          <div class="doc-action-area">
+            <span style="font-size: 0.8rem; color: var(--text-faint);">Google Drive Repository</span>
+            <a href="https://drive.google.com/drive/folders/163Xv9OMFQkJDkoErCgWhOX-lGPheZNIq?usp=sharing" class="doc-action-btn" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              Open in Drive
+            </a>
+          </div>
+        </article>
+
+        <!-- 3. Checklist Documents -->
+        <article class="doc-card">
+          <div class="doc-card-top">
+            <div class="doc-icon-wrap" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"></path><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+            </div>
+            <div class="doc-card-meta">
+              <div class="doc-card-header">
+                <h3>Checklist Documents</h3>
+                <span class="badge available">Available</span>
+              </div>
+              <p class="doc-description">Compilation of milestone progress checklist evaluation forms (Progress 1, Progress 2, and Final Readiness Checklist).</p>
+              <div class="doc-info-chips">
+                <span>PDF Package</span>
+                <span>·</span>
+                <span>Supervisor Verified</span>
+              </div>
+            </div>
+          </div>
+          <div class="doc-action-area">
+            <span style="font-size: 0.8rem; color: var(--text-faint);">Google Drive Repository</span>
+            <!-- TODO: team to add Google Drive link for Checklist documents package -->
+            <a href="#" class="doc-action-btn" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              Open in Drive
+            </a>
+          </div>
+        </article>
+
+        <!-- 4. Final Document - Main Compilation Report -->
+        <article class="doc-card">
+          <div class="doc-card-top">
+            <div class="doc-icon-wrap" aria-hidden="true" style="background: rgba(34, 197, 94, 0.15); color: var(--success);">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+            </div>
+            <div class="doc-card-meta">
+              <div class="doc-card-header">
+                <h3>Final Document (Main Report)</h3>
+                <span class="badge pending">Pending</span>
+              </div>
+              <p class="doc-description">Comprehensive unified dissertation report synthesizing the three research subcomponents, experimental analysis, evaluation benchmarks, and conclusion.</p>
+              <div class="doc-info-chips">
+                <span>Main Compilation</span>
+                <span>·</span>
+                <span>Final Report</span>
+              </div>
+            </div>
+          </div>
+          <div class="doc-action-area">
+            <span style="font-size: 0.8rem; color: var(--text-faint);">Google Drive Repository</span>
+            <!-- TODO: team to add Google Drive link for Final Document Main Report -->
+            <a href="#" class="doc-action-btn" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              Open in Drive
+            </a>
+          </div>
+        </article>
+
+        <!-- 5. Final Document - Component 1 Report -->
+        <article class="doc-card">
+          <div class="doc-card-top">
+            <div class="doc-icon-wrap" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+            </div>
+            <div class="doc-card-meta">
+              <div class="doc-card-header">
+                <h3>Final Document: Component 1</h3>
+                <span class="badge pending">Pending</span>
+              </div>
+              <p class="doc-description">Individual research report for Component 1 (Kavitha): Emergency Alerting, Camp Planning and Hazard Prediction.</p>
+              <div class="doc-info-chips">
+                <span>Component 1 Thesis Report</span>
+                <span>·</span>
+                <span>Kavitha Ekanayake</span>
+              </div>
+            </div>
+          </div>
+          <div class="doc-action-area">
+            <span style="font-size: 0.8rem; color: var(--text-faint);">Google Drive Repository</span>
+            <!-- TODO: team to add Google Drive link for Component 1 Report -->
+            <a href="#" class="doc-action-btn" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              Open in Drive
+            </a>
+          </div>
+        </article>
+
+        <!-- 6. Final Document - Component 2 Report -->
+        <article class="doc-card">
+          <div class="doc-card-top">
+            <div class="doc-icon-wrap" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="12" cy="10" r="3"></circle><path d="M7 19c0-2.5 2.5-3.5 5-3.5s5 1 5 3.5"></path></svg>
+            </div>
+            <div class="doc-card-meta">
+              <div class="doc-card-header">
+                <h3>Final Document: Component 2</h3>
+                <span class="badge pending">Pending</span>
+              </div>
+              <p class="doc-description">Individual research report for Component 2 (Rashmi): Integrated Disaster Relief Prediction.</p>
+              <div class="doc-info-chips">
+                <span>Component 2 Thesis Report</span>
+                <span>·</span>
+                <span>Rashmi Fernando</span>
+              </div>
+            </div>
+          </div>
+          <div class="doc-action-area">
+            <span style="font-size: 0.8rem; color: var(--text-faint);">Google Drive Repository</span>
+            <!-- TODO: team to add Google Drive link for Component 2 Report -->
+            <a href="#" class="doc-action-btn" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              Open in Drive
+            </a>
+          </div>
+        </article>
+
+        <!-- 7. Final Document - Component 3 Report -->
+        <article class="doc-card">
+          <div class="doc-card-top">
+            <div class="doc-icon-wrap" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M12 8v8M8 12h8"></path></svg>
+            </div>
+            <div class="doc-card-meta">
+              <div class="doc-card-header">
+                <h3>Final Document: Component 3</h3>
+                <span class="badge pending">Pending</span>
+              </div>
+              <p class="doc-description">Individual research report for Component 3 (Kenuri / D.K.S.D. Perera): Patient Severity Triage and Multilingual Appeal Quality Scoring.</p>
+              <div class="doc-info-chips">
+                <span>Component 3 Thesis Report</span>
+                <span>·</span>
+                <span>Kenuri Perera</span>
+              </div>
+            </div>
+          </div>
+          <div class="doc-action-area">
+            <span style="font-size: 0.8rem; color: var(--text-faint);">Google Drive Repository</span>
+            <!-- TODO: team to add Google Drive link for Component 3 Report -->
+            <a href="#" class="doc-action-btn" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              Open in Drive
+            </a>
+          </div>
+        </article>
+
+        <!-- 8. Thesis / Dissertation -->
+        <article class="doc-card">
+          <div class="doc-card-top">
+            <div class="doc-icon-wrap" aria-hidden="true" style="background: rgba(168, 85, 247, 0.15); color: var(--purple);">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+            </div>
+            <div class="doc-card-meta">
+              <div class="doc-card-header">
+                <h3>Thesis / Dissertation</h3>
+                <span class="badge pending">Pending</span>
+              </div>
+              <p class="doc-description">Complete undergraduate bound thesis dissertation volume containing theoretical background, system engineering, empirical evaluations, and defense documentation.</p>
+              <div class="doc-info-chips">
+                <span>Full Dissertation</span>
+                <span>·</span>
+                <span>Group R26-IT-047</span>
+              </div>
+            </div>
+          </div>
+          <div class="doc-action-area">
+            <span style="font-size: 0.8rem; color: var(--text-faint);">Google Drive Repository</span>
+            <!-- TODO: team to add Google Drive link for Thesis / Dissertation -->
+            <a href="#" class="doc-action-btn" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              Open in Drive
+            </a>
+          </div>
+        </article>
+
+        <!-- 9. Research Paper -->
+        <article class="doc-card">
+          <div class="doc-card-top">
+            <div class="doc-icon-wrap" aria-hidden="true" style="background: rgba(6, 182, 212, 0.15); color: var(--cyan);">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="12" y1="18" x2="12" y2="12"></line><line x1="9" y1="15" x2="15" y2="15"></line></svg>
+            </div>
+            <div class="doc-card-meta">
+              <div class="doc-card-header">
+                <h3>Research Paper</h3>
+                <span class="badge pending">Pending</span>
+              </div>
+              <p class="doc-description">Peer-reviewed academic research paper manuscript documenting the SmartRelief smart disaster relief coordination architecture, empirical benchmarks, and evaluation findings.</p>
+              <div class="doc-info-chips">
+                <span>Manuscript</span>
+                <span>·</span>
+                <span>Group R26-IT-047</span>
+                <span>·</span>
+                <span>Under Review</span>
+              </div>
+            </div>
+          </div>
+          <div class="doc-action-area">
+            <span style="font-size: 0.8rem; color: var(--text-faint);">Google Drive Repository</span>
+            <a href="https://drive.google.com/drive/folders/18ozOafkeJvCoFY9hc45P1d9eGGgChiCp?usp=sharing" class="doc-action-btn" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              Open in Drive
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Section Footer Navigation -->
+      <div class="section-footer-nav">
+        <a href="#home" class="sec-nav-link top-link">↑ Back to top</a>
+        <a href="#slides" class="sec-nav-link next-link">Next: Slides ↓</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 5: SLIDES & DEMONSTRATIONS (#slides)
+       ========================================================================= -->
+  <section id="slides" class="page-section" aria-labelledby="slides-heading">
+    <div class="site-wrap">
+      <div class="section-breadcrumb">
+        <a href="#home">SmartRelief</a>
+        <span aria-hidden="true">›</span>
+        <span class="bc-current">Slides</span>
+      </div>
+
+      <div class="section-header">
+        <span class="section-tag">Academic Presentations</span>
+        <h2 id="slides-heading">Slides &amp; Video Demonstrations</h2>
+        <p class="section-lead">Presentation slide decks from key evaluation milestones, video walkthrough of the SmartRelief platform, and reserved slots for upcoming research exhibitions.</p>
+      </div>
+
+      <!-- System Demo Video Link Block -->
+      <div class="demo-video-block" style="margin-bottom: 2.8rem;">
+        <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem 1.8rem; display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap;">
+          <div style="display: flex; align-items: center; gap: 1.1rem;">
+            <div style="width: 48px; height: 48px; border-radius: 50%; background: var(--accent-soft); color: var(--accent); display: flex; align-items: center; justify-content: center; flex-shrink: 0;" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="5 3 19 12 5 21 5 3" fill="currentColor"></polygon>
+              </svg>
+            </div>
+            <div>
+              <h3 style="font-size: 1.2rem; font-weight: 700; color: var(--text); margin-bottom: 0.25rem;">Watch System Demo</h3>
+              <p style="font-size: 0.92rem; color: var(--text-muted); margin: 0;">Watch the complete video demonstration walkthrough of the SmartRelief disaster response platform.</p>
+            </div>
+          </div>
+          <a href="https://drive.google.com/drive/folders/1ii82kl8y-d4Azui-wwXP9sSgD4EY-ago?usp=sharing" class="btn primary" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true" style="margin-right: 0.4rem; vertical-align: middle;"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor"></polygon></svg>
+            Watch Demo (Click Here)
+          </a>
+        </div>
+      </div>
+
+      <!-- Milestone Slide Decks Header -->
+      <div class="section-header" style="margin-top: 1.5rem;">
+        <span class="section-tag">Milestone Slide Decks</span>
+        <h3>Past &amp; Upcoming Presentations</h3>
+        <p class="section-lead">Slide decks presented before academic evaluation panels throughout the research cycle.</p>
+      </div>
+
+      <div class="slides-grid">
+
+        <!-- Slide 1: Proposal Presentation -->
+        <article class="slide-card">
+          <div>
+            <div class="slide-card-header">
+              <h4>Project Proposal Presentation</h4>
+              <span class="badge available">Available</span>
+            </div>
+            <p class="slide-desc">Inaugural defense presentation outlining the motivation, theoretical foundations, identified research gaps, and system architectural proposal.</p>
+            <div class="doc-info-chips" style="margin-top: 0.8rem;">
+              <span>Presented: May 2026</span>
+              <span>·</span>
+              <span>28 Slides</span>
+              <span>·</span>
+              <span>PPTX &amp; PDF</span>
+            </div>
+          </div>
+          <div class="doc-action-area">
+            <span style="font-size: 0.8rem; color: var(--text-faint);">Google Drive Repository</span>
+            <a href="https://drive.google.com/drive/folders/1BQQZIKTRyOuehcgOQiR7iYiGYAnsOTTA?usp=sharing" class="doc-action-btn" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              Open Slides in Drive
+            </a>
+          </div>
+        </article>
+
+        <!-- Slide 2: Progress Presentation 1 -->
+        <article class="slide-card">
+          <div>
+            <div class="slide-card-header">
+              <h4>Progress Presentation 1</h4>
+              <span class="badge available">Available</span>
+            </div>
+            <p class="slide-desc">50% implementation review showcasing preliminary machine learning hazard models, YOLO test evaluations, and database schema validation.</p>
+            <div class="doc-info-chips" style="margin-top: 0.8rem;">
+              <span>Presented: July 2026</span>
+              <span>·</span>
+              <span>34 Slides</span>
+              <span>·</span>
+              <span>PPTX &amp; PDF</span>
+            </div>
+          </div>
+          <div class="doc-action-area">
+            <span style="font-size: 0.8rem; color: var(--text-faint);">Google Drive Repository</span>
+            <a href="https://drive.google.com/drive/folders/1BQQZIKTRyOuehcgOQiR7iYiGYAnsOTTA?usp=sharing" class="doc-action-btn" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              Open Slides in Drive
+            </a>
+          </div>
+        </article>
+
+        <!-- Slide 3: Progress Presentation 2 -->
+        <article class="slide-card">
+          <div>
+            <div class="slide-card-header">
+              <h4>Progress Presentation 2</h4>
+              <span class="badge pending">Pending</span>
+            </div>
+            <p class="slide-desc">90% completion presentation focusing on cross-module integration, tri-lingual appeal natural language benchmarks, and offline resilience test cases.</p>
+            <div class="doc-info-chips" style="margin-top: 0.8rem;">
+              <span>Scheduled: Sept 2026</span>
+              <span>·</span>
+              <span>36 Slides</span>
+              <span>·</span>
+              <span>Draft Ready</span>
+            </div>
+          </div>
+          <div class="doc-action-area">
+            <span style="font-size: 0.8rem; color: var(--text-faint);">Google Drive Repository</span>
+            <a href="https://drive.google.com/drive/folders/1BQQZIKTRyOuehcgOQiR7iYiGYAnsOTTA?usp=sharing" class="doc-action-btn" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              Open Slides in Drive
+            </a>
+          </div>
+        </article>
+
+        <!-- Slide 4: Final Presentation -->
+        <article class="slide-card">
+          <div>
+            <div class="slide-card-header">
+              <h4>Final Presentation</h4>
+              <span class="badge pending">Pending</span>
+            </div>
+            <p class="slide-desc">Final academic defense presentation synthesizing all empirical contributions, statistical metrics, performance benchmarks, and industrial implications.</p>
+            <div class="doc-info-chips" style="margin-top: 0.8rem;">
+              <span>Scheduled: Oct 2026</span>
+              <span>·</span>
+              <span>45 Slides</span>
+              <span>·</span>
+              <span>In Preparation</span>
+            </div>
+          </div>
+          <div class="doc-action-area">
+            <span style="font-size: 0.8rem; color: var(--text-faint);">Google Drive Repository</span>
+            <a href="https://drive.google.com/drive/folders/1BQQZIKTRyOuehcgOQiR7iYiGYAnsOTTA?usp=sharing" class="doc-action-btn" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              Open Slides in Drive
+            </a>
+          </div>
+        </article>
+
+        <!-- Spare Slot 1: Future Presentation -->
+        <article class="slide-card future-slot">
+          <div>
+            <div class="slide-card-header">
+              <h4>Future Slot: Viva Voce Defense</h4>
+              <span class="badge pending">Reserved</span>
+            </div>
+            <p class="slide-desc">Reserved presentation slot for individual viva voce defense slides, technical code walkthroughs, and examiners' question response deck.</p>
+            <div class="doc-info-chips" style="margin-top: 0.8rem;">
+              <span>Scheduled: Nov 2026</span>
+              <span>·</span>
+              <span>Individual Slides</span>
+            </div>
+          </div>
+          <div class="doc-action-area">
+            <span style="font-size: 0.8rem; color: var(--text-faint);">Google Drive Repository</span>
+            <a href="https://drive.google.com/drive/folders/1BQQZIKTRyOuehcgOQiR7iYiGYAnsOTTA?usp=sharing" class="doc-action-btn" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              Open Slides Folder
+            </a>
+          </div>
+        </article>
+
+        <!-- Spare Slot 2: Future Presentation -->
+        <article class="slide-card future-slot">
+          <div>
+            <div class="slide-card-header">
+              <h4>Future Slot: Conference Presentation</h4>
+              <span class="badge pending">Reserved</span>
+            </div>
+            <p class="slide-desc">Reserved presentation slot for international IEEE/ACM symposium or conference presentations following peer-review publication acceptance.</p>
+            <div class="doc-info-chips" style="margin-top: 0.8rem;">
+              <span>Future Session</span>
+              <span>·</span>
+              <span>Conference Ready</span>
+            </div>
+          </div>
+          <div class="doc-action-area">
+            <span style="font-size: 0.8rem; color: var(--text-faint);">Google Drive Repository</span>
+            <a href="https://drive.google.com/drive/folders/1BQQZIKTRyOuehcgOQiR7iYiGYAnsOTTA?usp=sharing" class="doc-action-btn" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              Open Slides Folder
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Section Footer Navigation -->
+      <div class="section-footer-nav">
+        <a href="#home" class="sec-nav-link top-link">↑ Back to top</a>
+        <a href="#about" class="sec-nav-link next-link">Next: About us ↓</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 6: ABOUT OUR RESEARCH TEAM (#about)
+       ========================================================================= -->
+  <section id="about" class="page-section" aria-labelledby="about-heading">
+    <div class="site-wrap">
+      <div class="section-breadcrumb">
+        <a href="#home">SmartRelief</a>
+        <span aria-hidden="true">›</span>
+        <span class="bc-current">About us</span>
+      </div>
+
+      <div class="section-header">
+        <span class="section-tag">Research Group R26-IT-047</span>
+        <h2 id="about-heading">Meet the Research Team &amp; Supervision</h2>
+        <p class="section-lead">Undergraduate researchers from the Faculty of Computing, Sri Lanka Institute of Information Technology (SLIIT), working on the Smart Disaster Relief and Donation Coordination System across three core components.</p>
+      </div>
+
+      <!-- Research Team Cards (3 components / 3 members) -->
+      <div class="team-grid">
+
+        <!-- Member 1: Kavitha Ekanayake (Team Leader) -->
+        <article class="member-card">
+          <div class="member-photo-wrap">
+            <img src="images/IT22104076.jpeg" alt="Photo of Kavitha Ekanayake" width="110" height="110" loading="lazy" />
+          </div>
+          <h3>Kavitha Ekanayake</h3>
+          <p class="member-role">Team Leader · Component 1 Lead</p>
+          <span class="member-id">IT22104076</span>
+          <p class="member-achievements">
+            Emergency Alerting, Camp Planning and Hazard Prediction. SOS alerting with priority scoring, ranked medical camp site recommendations on a Leaflet map, and flood and landslide risk prediction.
+          </p>
+          <a href="mailto:kavithaekanayaka@gmail.com" class="member-email-link">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            kavithaekanayaka@gmail.com
+          </a>
+        </article>
+
+        <!-- Member 2: Rashmi Fernando -->
+        <article class="member-card">
+          <div class="member-photo-wrap">
+            <img src="images/IT22177414.jpeg" alt="Photo of Rashmi Fernando" width="110" height="110" loading="lazy" />
+          </div>
+          <h3>Rashmi Fernando</h3>
+          <p class="member-role">Researcher · Component 2 Lead</p>
+          <span class="member-id">IT22177414</span>
+          <p class="member-achievements">
+            Integrated Disaster Relief Prediction. YOLOv8n affected-population estimation, government-rate relief demand calculation, next-hour camp population forecasting, and donor probability scoring.
+          </p>
+          <a href="mailto:rashmifernando21@gmail.com" class="member-email-link">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            rashmifernando21@gmail.com
+          </a>
+        </article>
+
+        <!-- Member 3: Kenuri Perera -->
+        <article class="member-card">
+          <div class="member-photo-wrap">
+            <img src="images/IT22128522.jpeg" alt="Photo of Kenuri Perera" width="110" height="110" loading="lazy" />
+          </div>
+          <h3>Kenuri Perera</h3>
+          <p class="member-role">Researcher · Component 3 Lead</p>
+          <span class="member-id">IT22128522</span>
+          <p class="member-achievements">
+            Patient Severity Triage and Multilingual Appeal Quality Scoring. Stacked-ensemble triage decision support and English, Sinhala and Tamil donation appeal scoring.
+          </p>
+          <a href="mailto:kenuriperera@gmail.com" class="member-email-link">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            kenuriperera@gmail.com
+          </a>
+        </article>
+
+      </div>
+
+      <!-- Project Supervisors Section -->
+      <div class="section-header" style="margin-top: 4.5rem;">
+        <span class="section-tag">Academic Mentorship</span>
+        <h3>Research Supervision</h3>
+        <p class="section-lead">Guided by faculty members of the Department of Information Technology, Faculty of Computing, Sri Lanka Institute of Information Technology (SLIIT).</p>
+      </div>
+
+      <div class="supervisor-grid">
+
+        <!-- Supervisor Card -->
+        <article class="supervisor-card">
+          <div class="supervisor-avatar" aria-hidden="true">
+            <img src="images/avatar-supervisor.svg" alt="Supervisor Avatar" width="72" height="72" loading="lazy" />
+          </div>
+          <div class="supervisor-info">
+            <h4>Mrs. Anjali Gamage</h4>
+            <p class="supervisor-title">Project Supervisor</p>
+            <p class="supervisor-dept">Senior Lecturer, Department of Information Technology, Sri Lanka Institute of Information Technology (SLIIT)</p>
+            <a href="mailto:anjalie.g@sliit.lk" class="member-email-link">
+              anjalie.g@sliit.lk
+            </a>
+          </div>
+        </article>
+
+        <!-- Co-Supervisor Card -->
+        <article class="supervisor-card">
+          <div class="supervisor-avatar" aria-hidden="true">
+            <img src="images/avatar-supervisor.svg" alt="Co-Supervisor Avatar" width="72" height="72" loading="lazy" />
+          </div>
+          <div class="supervisor-info">
+            <h4>Ms. Chathurya Kumarapperuma</h4>
+            <p class="supervisor-title">Project Co-Supervisor</p>
+            <p class="supervisor-dept">Lecturer, Department of Information Technology, Sri Lanka Institute of Information Technology (SLIIT)</p>
+            <a href="mailto:chathurya.k@sliit.lk" class="member-email-link">
+              chathurya.k@sliit.lk
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Section Footer Navigation -->
+      <div class="section-footer-nav">
+        <a href="#home" class="sec-nav-link top-link">↑ Back to top</a>
+        <a href="#contact" class="sec-nav-link next-link">Next: Contact us ↓</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SECTION 7: CONTACT US (#contact)
+       ========================================================================= -->
+  <section id="contact" class="page-section" aria-labelledby="contact-heading">
+    <div class="site-wrap">
+      <div class="section-breadcrumb">
+        <a href="#home">SmartRelief</a>
+        <span aria-hidden="true">›</span>
+        <span class="bc-current">Contact us</span>
+      </div>
+
+      <div class="section-header">
+        <span class="section-tag">Academic Outreach</span>
+        <h2 id="contact-heading">Contact the Research Team</h2>
+        <p class="section-lead">Have an inquiry regarding our disaster response algorithms, evaluation benchmarks, or academic collaboration opportunities? Get in touch with our team directly.</p>
+      </div>
+
+      <div class="contact-layout">
+
+        <!-- Left Column: Official Contact Information -->
+        <div class="contact-info-col">
+          <div class="contact-info-card">
+            <h3>Contact Details</h3>
+            <div class="contact-method-list">
+
+              <!-- Institutional Location -->
+              <div class="contact-method-item">
+                <div class="contact-method-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div>
+                  <h4>Institution &amp; Department</h4>
+                  <p>Faculty of Computing, Department of Information Technology<br />Sri Lanka Institute of Information Technology (SLIIT)<br />New Kandy Road, Malabe, Sri Lanka</p>
+                </div>
+              </div>
+
+              <!-- Official Email -->
+              <div class="contact-method-item">
+                <div class="contact-method-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div>
+                  <h4>Researcher Contact Emails</h4>
+                  <p><a href="mailto:kavithaekanayaka@gmail.com">kavithaekanayaka@gmail.com</a> (Kavitha Ekanayake · Team Leader)</p>
+                  <p><a href="mailto:rashmifernando21@gmail.com">rashmifernando21@gmail.com</a> (Rashmi Fernando · Component 2 Lead)</p>
+                  <p><a href="mailto:kenuriperera@gmail.com">kenuriperera@gmail.com</a> (Kenuri Perera · Component 3 Lead)</p>
+                </div>
+              </div>
+
+              <!-- Phone Number -->
+              <div class="contact-method-item">
+                <div class="contact-method-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div>
+                  <h4>Department / Inquiries Phone</h4>
+                  <!-- TODO: team to confirm phone number -->
+                  <p><a href="tel:+94117544801">+94 11 754 4801</a> <span style="font-size: 0.8rem; color: var(--text-faint);">(SLIIT General Inquiries)</span></p>
+                </div>
+              </div>
+
+              <!-- Project Reference -->
+              <div class="contact-method-item">
+                <div class="contact-method-icon" aria-hidden="true" style="background: rgba(6, 182, 212, 0.14); color: var(--cyan);">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                </div>
+                <div>
+                  <h4>Project Registration Code</h4>
+                  <p><span class="project-code-tag">Group R26-IT-047</span></p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Pure HTML Contact Form -->
+        <div class="contact-form-card">
+          <h3>Send an Academic Message</h3>
+          <p>Complete the form below to reach the research team directly for questions regarding system demonstrations, evaluations, or documentation.</p>
+
+          <!-- Pure HTML Form using mailto action (no JavaScript required) -->
+          <form action="mailto:kavithaekanayaka@gmail.com,rashmifernando21@gmail.com,kenuriperera@gmail.com" method="post" enctype="text/plain">
+            <div class="form-group">
+              <label for="contact-name" class="form-label">Your Name</label>
+              <input type="text" id="contact-name" name="Sender_Name" class="form-input" placeholder="e.g. Dr. Jane Doe / Research Evaluator" required />
+            </div>
+
+            <div class="form-group">
+              <label for="contact-email" class="form-label">Your Email Address</label>
+              <input type="email" id="contact-email" name="Sender_Email" class="form-input" placeholder="e.g. jane.doe@university.edu" required />
+            </div>
+
+            <div class="form-group">
+              <label for="contact-topic" class="form-label">Topic of Interest</label>
+              <select id="contact-topic" name="Inquiry_Topic" class="form-select" required>
+                <option value="General Academic Inquiry">General Academic Inquiry</option>
+                <option value="Component 1: Emergency Alerting & Hazard Prediction">Component 1: Emergency Alerting, Camp Planning and Hazard Prediction</option>
+                <option value="Component 2: Integrated Disaster Relief Prediction">Component 2: Integrated Disaster Relief Prediction</option>
+                <option value="Component 3: Patient Severity Triage & Multilingual Appeals">Component 3: Patient Severity Triage and Appeal Quality Scoring</option>
+                <option value="Evaluation Benchmark Replication">Evaluation Benchmark Replication</option>
+                <option value="Academic Collaboration">Academic Collaboration</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-subject" class="form-label">Subject</label>
+              <input type="text" id="contact-subject" name="Subject" class="form-input" placeholder="Brief summary of inquiry" required />
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message" class="form-label">Message</label>
+              <textarea id="contact-message" name="Message" class="form-textarea" placeholder="Detail your question, inquiry, or collaboration proposal..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn primary large full">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              Send Message via Mail Client
+            </button>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Section Footer Navigation (Last section only has Back to top) -->
+      <div class="section-footer-nav" style="justify-content: flex-end;">
+        <a href="#home" class="sec-nav-link top-link">↑ Back to top</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SITE INDEX SECTION (#site-index)
+       ========================================================================= -->
+  <section id="site-index" class="site-index-section" aria-labelledby="site-index-heading">
+    <div class="site-wrap">
+      <div class="section-header">
+        <span class="section-tag">Quick Navigation</span>
+        <h2 id="site-index-heading">A–Z Site Index</h2>
+        <p class="section-lead">Direct keyword links across all research domains, deliverables, and system components.</p>
+      </div>
+
+      <div class="index-grid">
+        <a href="#method-c3" class="index-chip">Appeals scoring</a>
+        <a href="#method-c1" class="index-chip">Camp recommendation</a>
+        <a href="#contact" class="index-chip">Contact</a>
+        <a href="#slides" class="index-chip">Demo video</a>
+        <a href="#documents" class="index-chip">Documents</a>
+        <a href="#method-c2" class="index-chip">Donor prioritisation</a>
+        <a href="#method-c1" class="index-chip">Flood prediction</a>
+        <a href="#limitations" class="index-chip">Limitations</a>
+        <a href="#milestones" class="index-chip">Logbook</a>
+        <a href="#milestones" class="index-chip">Marks</a>
+        <a href="#milestones" class="index-chip">Milestones</a>
+        <a href="#method-c2" class="index-chip">Next-hour forecasting</a>
+        <a href="#research-gap" class="index-chip">Research gap</a>
+        <a href="#references" class="index-chip">References</a>
+        <a href="#method-c1" class="index-chip">SOS alerting</a>
+        <a href="#about" class="index-chip">Team</a>
+        <a href="#technologies" class="index-chip">Technologies</a>
+        <a href="#documents" class="index-chip">Thesis</a>
+        <a href="#method-c3" class="index-chip">Triage</a>
+        <a href="#milestones" class="index-chip">Viva</a>
+        <a href="#method-c2" class="index-chip">YOLOv8n</a>
+      </div>
+
+      <p class="index-search-hint">Tip: press <kbd>Ctrl+F</kbd> (<kbd>Cmd+F</kbd> on Mac) to search the text of this page.</p>
+    </div>
+  </section>
+
+  <!-- Floating Round Back to Top Button -->
+  <a href="#home" class="floating-top-btn" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+    <span class="sr-only">Back to top</span>
+  </a>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="site-wrap">
+      <div class="footer-top">
+        <div class="footer-brand-col">
+          <a href="#home" class="footer-logo">
+            <span class="logo-mark">
+              <svg viewBox="0 0 32 32" fill="none" width="22" height="22" aria-hidden="true">
+                <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/>
+                <path d="M16 8v8l5 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="16" cy="16" r="3" fill="currentColor"/>
+              </svg>
+            </span>
+            SmartRelief
+          </a>
+          <p>Smart Disaster Relief and Donation Coordination System (R26-IT-047) — Connecting emergency hazard alerting, population-driven relief prediction, and patient triage decision support.</p>
+        </div>
+        <div class="footer-nav-col">
+          <h4>Site Navigation</h4>
+          <div class="footer-links-grid">
+            <a href="#home">Home</a>
+            <a href="#domain">Domain</a>
+            <a href="#milestones">Milestones</a>
+            <a href="#documents">Documents</a>
+            <a href="#slides">Slides</a>
+            <a href="#about">About us</a>
+            <a href="#contact">Contact us</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-academic-meta">
+          <span>SLIIT 4th Year Research Project (CDAP)</span>
+          <span>·</span>
+          <span class="project-code-tag">Group R26-IT-047</span>
+        </div>
+        <p class="copyright">© 2026 SmartRelief Research Team. Built with pure HTML5 &amp; CSS3.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
